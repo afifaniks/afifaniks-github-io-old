@@ -64,7 +64,7 @@ li a {
 
 .navigation a:hover > i {
     transform: scale(1.2);
-    color: red;
+    color: rgb(0, 110, 255);
     transition: 0.4s;
 
 }
@@ -94,7 +94,7 @@ li a {
 
 .social a:hover > i {
     transform: scale(1.4) rotate(25deg);
-    color: red;
+    color: rgb(0, 110, 255);
 
 }
 
