@@ -1,0 +1,78 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-image: url("assets/images/back.png");
+    background-size: cover;
+}
+
+img.profile {
+    width: 200px;
+    height: 200px;
+    border: 1.5px;
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-color: white;
+    border-radius: 100px 100px 100px 100px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+  }
+
+li {
+    display: inline;
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.social {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;   
+    top: 50%;
+    bottom: 50%;
+    left: 50%;
+    padding-top: 20px;
+    margin: 0 0 0 0 auto;
+    transform: translate(-50%, -50%);
+}
+
+.social a {
+    display: inline-flex;
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    background: #ffffff22;
+    color: white;
+    margin: 0 6px;
+    border-radius: 50%;
+    justify-content: center;
+    font-size: 25px;
+    align-items: center;
+    transition: 0.4s;
+}
+
+.social a i {
+    transition: 0.4s;
+}
+
+.social a:hover > i {
+    transform: scale(1.6) rotate(25deg)
+
+}
+    
