@@ -56,6 +56,23 @@ li a {
     transform: translate(-50%, -50%);
 }
 
+.navigation a {
+    color: white;
+    font-size: 24px;
+    transition: 0.4s;
+}
+
+.navigation a:hover > i {
+    transform: scale(1.2);
+    color: red;
+    transition: 0.4s;
+
+}
+
+.navigation a i {
+    transition: 0.4s;
+}
+
 .social a {
     display: inline-flex;
     text-decoration: none;
@@ -76,7 +93,7 @@ li a {
 }
 
 .social a:hover > i {
-    transform: scale(1.6) rotate(25deg);
+    transform: scale(1.4) rotate(25deg);
     color: red;
 
 }
