@@ -72,7 +72,8 @@ li a {
 }
 
 .social a:hover > i {
-    transform: scale(1.6) rotate(25deg)
+    transform: scale(1.6) rotate(25deg);
+    color: red;
 
 }
     
