@@ -122,10 +122,39 @@ li a {
 
 }
 
-.links a:hover {
-    font-size: 18px;
+.projects a {
+    transition: 0.4s;
+    padding: 15px 15px 15px 15px; 
+    background-color: #ffffff18; 
+    color: white; 
+    margin-top: 10px; 
+    border-radius: 
+    4px 4px 4px 4px;
+}
+
+.projects a:hover {
+    font-size: 20px;
     color: cyan;
-    font-weight: bold;
+}
+
+.post {
+    padding: 15px 15px 15px 15px; 
+    background-color: #ffffff18; 
+    color: white; 
+    margin: 15px 10px 10px 15px; 
+    border-radius: 4px 4px 4px 4px;
+    text-align: left;
+}
+
+.tags {
+    font-size: 11px;
+    display: inline-block;
+    padding: 4px 4px 4px 4px; 
+    background-color: #ffffff18; 
+    color: white; 
+    margin-top: 10px; 
+    border-radius: 4px 4px 4px 4px;
+    text-align: center;
 }
 
 #particles-js {
