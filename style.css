@@ -47,6 +47,7 @@ img.profile {
 
 .profile img:hover {
     transform: scale(1.05);
+    border-radius: 5px 5px 5px 5px;
 }
 
 .about {
