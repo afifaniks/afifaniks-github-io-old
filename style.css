@@ -44,6 +44,21 @@ img.profile {
     border-style: solid;
     border-color: white;
     border-radius: 100px 100px 100px 100px;
+    transition: 0.4s;
+}
+
+.profile img:hover {
+    transform: scale(1.05);
+}
+
+.about {
+    padding: 15px 15px 15px 15px; 
+    background-color: #ffffff18; 
+    color: white; 
+    font-size: 14px;
+    margin: 15px 10px 10px 15px; 
+    border-radius: 4px 4px 4px 4px;
+    text-align: center
 }
 
 ul {
