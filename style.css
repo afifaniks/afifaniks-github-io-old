@@ -51,6 +51,23 @@ img.profile {
     border-radius: 5px 5px 5px 5px;
 }
 
+img.about-profile {
+    width: 210px;
+    height: 210px;
+    border: 2px;
+    display: inline-block;
+    margin-top: 20px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px 5px 5px 5px;
+    transition: 0.4s;
+}
+
+.about-profile img:hover {
+    transform: scale(0.95);
+    border-radius: 100px 100px 100px 100px;
+}
+
 .about {
     padding: 15px 15px 15px 15px; 
     background-color: #ffffff18; 
