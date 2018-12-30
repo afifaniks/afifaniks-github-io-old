@@ -2,9 +2,13 @@
     margin: 0;
     padding: 0;
 }
+
 body {
     font-family: 'Roboto', sans-serif;
     color: white;
+    background-image: url("assets/images/back.jpg");
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .post {
