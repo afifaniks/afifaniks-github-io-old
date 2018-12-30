@@ -11,6 +11,17 @@ body {
     background-attachment: fixed;
 }
 
+a:link {
+    color: cyan;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+a:visited {
+    color: cyan;
+    text-decoration: none;
+}
+
 .post {
     padding: 15px 15px 15px 15px; 
     background-color: #ffffff18; 

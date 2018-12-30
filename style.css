@@ -11,12 +11,12 @@ body {
 }
 
 a:link {
-    color: white;
+    color: cyan;
     text-decoration: none;
 }
 
 a:visited {
-    color: white;
+    color: grey;
     text-decoration: none;
 }
 
