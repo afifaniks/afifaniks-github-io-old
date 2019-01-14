@@ -154,6 +154,42 @@ li a {
 
 }
 
+/* Adding social links style on hover */
+
+.social a i {
+    transition: 0.4s;
+}
+
+.social a:hover > i {
+    transform: scale(1.4) rotate(25deg);
+
+}
+
+.social .fb:hover > i {
+    color: blue;
+}
+
+.social .ig:hover > i {
+    color: #833ab4;
+}
+
+.social .ln:hover > i {
+    color: #0077B5;
+}
+
+.social .gp:hover > i {
+    color: green;
+}
+
+.social .tw:hover > i {
+    color: #0084b4;
+}
+
+.social .yt:hover > i {
+    color: red;
+}
+
+
 .projects a {
     transition: 0.4s;
     padding: 15px 15px 15px 15px; 
@@ -205,6 +241,7 @@ footer {
     bottom: 0; 
     left: 0; 
     right: 0; 
-    font-size: 12px;
+    font-size: 10px;
 }
+    
     
