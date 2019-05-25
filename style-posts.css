@@ -5,27 +5,26 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    color: white;
-    background-image: url("assets/images/back.jpg");
+    color: black;
     background-size: cover;
     background-attachment: fixed;
 }
 
 a:link {
-    color: cyan;
+    color: green;
     text-decoration: none;
     font-size: 14px;
 }
 
 a:visited {
-    color: cyan;
+    color: grey;
     text-decoration: none;
 }
 
 .post {
     padding: 15px 15px 15px 15px; 
-    background-color: #ffffff18; 
-    color: white; 
+    background-color: #00000022; 
+    color: black; 
     margin: 15px 10px 10px 15px; 
     border-radius: 4px 4px 4px 4px;
     text-align: left;
@@ -35,11 +34,17 @@ a:visited {
     font-size: 11px;
     display: inline-block;
     padding: 4px 4px 4px 4px; 
-    background-color: #ffffff18; 
-    color: white; 
+    background-color: #00000022; 
+    color: black; 
     margin-top: 10px; 
     border-radius: 4px 4px 4px 4px;
     text-align: center;
+}
+
+#test {
+    margin-top: 10px; 
+    text-align: center; 
+    color: white;
 }
 
 footer {
