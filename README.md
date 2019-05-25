@@ -3,9 +3,10 @@
 
 **A simple static portfolio website built with HTML, CSS and particle-js library** 
 
+<span style="color:red">The project style has been changed. Trying to give it a material look.</span>
 
 **Sample Screenshot:**
-![Sample](/projects/projectss/portfolio-1.png)
+![Sample](/projects/projectss/portfolio-3.png)
 
 **Project Video:**
 [Check out the video here.](https://www.youtube.com/watch?v=_Rx7G2ycHL8)
