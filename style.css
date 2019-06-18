@@ -195,13 +195,14 @@ li a {
     background-color: #00000055; 
     color: white; 
     margin-top: 10px; 
-    border-radius: 
-    4px 4px 4px 4px;
+    border-radius: 4px 4px 4px 4px;
 }
 
 .projects a:hover {
     font-size: 20px;
     color: black;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
 }
 
 .post {
