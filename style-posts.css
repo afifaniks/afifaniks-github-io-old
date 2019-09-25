@@ -54,4 +54,12 @@ footer {
     right: 0; 
     font-size: 12px;
 }
+
+.project-ss {
+    max-width: 60%;
+    height: auto;
+    border: white;
+    border-style: solid;
+    border-width: 2px;
+}
     
