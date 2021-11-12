@@ -1,0 +1,15 @@
+.card {
+    background: #fff;
+    border: none;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.profile-name {
+    font-weight: 500;
+    font-size: 36px;
+}
+
+.profile-picture {
+    width: 200px;
+    height: auto;
+}

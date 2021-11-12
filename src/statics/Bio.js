@@ -1,0 +1,10 @@
+const Bio = Object.freeze({
+    bio: "Afif Al Mamun is a software engineer from Dhaka, Bangladesh. "
+        + "He is currently working at Infolytx Bangladesh Ltd. as a software engineer in machine learning.\n\n"
+        + "Previously, he used to work at ServicEngine Ltd. as a software engineer where his main role was to develop web scrapers as per clients' requirements and also developing modules in Java for the company framework. "
+        + "Being an AI enthusiast, he is actively researching in the field of Deep Learning & Computer Vision and has published a few scholarly articles. "
+        + "Afif obtained his bachelor degree from the Department of Computer Science and Engineering of Daffodil International University. "
+        + "During his study in the university, he used to be a student prefect and took different courses."
+});
+
+export default Bio;

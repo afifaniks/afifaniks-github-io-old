@@ -1,0 +1,11 @@
+node_modules/
+**/node_modules/
+.webpack/
+.vscode/settings.json
+coverage/
+**/dist/
+logs/
+.idea
+build/
+reports/
+CD_Pipeline
