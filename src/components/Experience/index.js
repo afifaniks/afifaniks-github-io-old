@@ -9,17 +9,22 @@ class ExperienceHolder extends Component {
                 <ul>
                     {
                         this.props.experiences.map((workExperience) => <li key={workExperience.companyName}>
-                            <p className="company-name" >
+                            <p className="org-title" >
                                 <a href={workExperience.companyWebsite}>
                                     {workExperience.companyName}
                                 </a>
                             </p>
-                            <p className="text-left m-1">
-                                Designation: {workExperience.designation}
-                            </p>
-                            <p className="text-left m-1">
-                                Period: {workExperience.from} - {workExperience.to}
-                            </p>
+                            <table className="table-borderless">
+                                <tbody>
+                                    <tr className="text-left">
+                                        <td className="text-left"><b>Designation</b></td>
+                                        <td className="text-left pl-1">{workExperience.designation}</td>
+                                    </tr><tr>
+                                        <td className="text-left"><b>Period</b></td>
+                                        <td className="text-left pl-1">{workExperience.from} - {workExperience.to}</td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </li>)
                     }
                 </ul>

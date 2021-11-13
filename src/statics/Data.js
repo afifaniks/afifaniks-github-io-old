@@ -21,7 +21,6 @@ const PROFILE_DATA = Object.freeze({
             from: "July, 2021",
             to: "till date",
             designation: "Machine Learning Engineer",
-            responsibilities: []
         },
         {
             companyName: "ServicEngine Ltd.",
@@ -29,7 +28,36 @@ const PROFILE_DATA = Object.freeze({
             from: "July, 2020",
             to: "June, 2021",
             designation: "Software Engineer",
-            responsibilities: []
+        },
+    ],
+    educations: [
+        {
+            instituteName: "Daffodil International University",
+            instituteWebsite: "https://daffodilvarsity.edu.bd/",
+            from: "May, 2016",
+            to: "August, 2020",
+            degreeType: "B.Sc in Computer Science & Engineering",
+            thesis: "[an-Eye: SAFE NAVIGATION IN FOOTPATH FOR VISUALLY IMPAIRED USING COMPUTER VISION TECHNIQUES](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=XuauQRIAAAAJ&citation_for_view=XuauQRIAAAAJ:u-x6o8ySG0sC)"
+        },
+        {
+            instituteName: "Gurudayal Govt. College",
+            instituteWebsite: "https://www.gdc.gov.bd/",
+            from: "May, 2012",
+            to: "August, 2014",
+            degreeType: "HSC in Science",
+        },
+    ],
+    achievements: [
+        {
+            title: "Professor Dr.  M. Lutfar Rahman Scholarship",
+            time: "2017",
+            awardedBy: "Daffodil International University",
+            desc: "Awarded for maintaining highest CGPA (4.00) in the department in 1st year"
+        },
+        {
+            title: "Education Board Scholarship",
+            time: "2012",
+            awardedBy: "Dhaka Education Board",
         },
     ]
 });

@@ -6,6 +6,8 @@ import BioCard from "../Bio";
 import ProfilePicture from "../../assets/images/dp.jpeg";
 import { urlFormatter } from "../../utils/textProcessor";
 import ExperienceHolder from "../Experience";
+import EducationHolder from "../Education";
+import AchievementsHolder from "../Achievements";
 
 class ProfileView extends Component {
     constructor(props) {
@@ -15,7 +17,9 @@ class ProfileView extends Component {
             headline: "",
             socialLinks: {},
             bio: "",
-            experiences: []
+            experiences: [],
+            educations: [],
+            achievements: []
         };
     }
 
@@ -39,10 +43,12 @@ class ProfileView extends Component {
                     <div className="profile-tagline">
                         {this.state.headline}
                     </div>
-                    <SocialWidget socialLinks={this.state.socialLinks}/>
+                    <SocialWidget socialLinks={this.state.socialLinks} />
                     <div className="container">
-                        <BioCard bio={urlFormatter(this.state.bio)}/>
-                        <ExperienceHolder experiences={this.state.experiences}/>
+                        <BioCard bio={urlFormatter(this.state.bio)} />
+                        <ExperienceHolder experiences={this.state.experiences} />
+                        <EducationHolder educations={this.state.educations} />
+                        <AchievementsHolder achievements={this.state.achievements} />
                     </div>
                 </div>
             </div>
@@ -63,6 +69,8 @@ ProfileView.propTypes = {
         },
         bio: PropTypes.string.isRequired,
         experiences: PropTypes.array,
+        educations: PropTypes.array,
+        achievements: PropTypes.array,
     }
 };
 
