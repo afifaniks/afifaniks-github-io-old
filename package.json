@@ -1,5 +1,6 @@
 {
   "name": "afianiks_react",
+  "homepage": "http://afifaniks.github.io/afifaniks.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -23,7 +24,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "eslint . -f ./ node_modules/eslint-detailed-reporter/lib/detailed-multi.js -o reports/lint.html || echo Lint Report: reports/lint.html",
-    "lintFix": "eslint --fix . || echo Lint Report: reports/lint.html"
+    "lintFix": "eslint --fix . || echo Lint Report: reports/lint.html",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -47,6 +50,7 @@
     "eslint-plugin-jest": "23.13.2",
     "eslint-plugin-jsx-a11y": "6.2.3",
     "eslint-plugin-react": "7.20.0",
-    "eslint-plugin-react-hooks": "2.5.1"
+    "eslint-plugin-react-hooks": "2.5.1",
+    "gh-pages": "^3.2.3"
   }
 }
