@@ -13,7 +13,25 @@ const PROFILE_DATA = Object.freeze({
         Linkedin: "https://www.linkedin.com/in/afifaniks/",
         "Google Scholar": "https://scholar.google.com/citations?user=XuauQRIAAAAJ&hl=en",
         ResearchGate: "https://www.researchgate.net/profile/Md-Afif-Al-Mamun"
-    }
+    },
+    experiences: [
+        {
+            companyName: "Infolytx Bangladesh Ltd.",
+            companyWebsite: "https://infolytx.com",
+            from: "July, 2021",
+            to: "till date",
+            designation: "Machine Learning Engineer",
+            responsibilities: []
+        },
+        {
+            companyName: "ServicEngine Ltd.",
+            companyWebsite: "https://sebpo.com",
+            from: "July, 2020",
+            to: "June, 2021",
+            designation: "Software Engineer",
+            responsibilities: []
+        },
+    ]
 });
 
 export default PROFILE_DATA;

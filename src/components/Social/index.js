@@ -1,24 +1,28 @@
 import React, { Component } from "react";
-import ProfileLinks from "../../statics/profileLinks";
 import "./index.css";
+import PropTypes from "prop-types";
 
-class SocialCard extends Component {
+class SocialWidget extends Component {
     render() {
         return (
             <div className="d-inline-block m-2">
                 {
-                    Object.entries(ProfileLinks).map((profile, index) => {
+                    this.props.socialLinks
+                    && Object.keys(this.props.socialLinks).map((profile, index) => {
                         if (index > 0) {
                             return (
-                                <span key={profile[0]}> | <a href={ profile[1] }>{ profile[0] }</a></span>);
+                                <span key={profile}> | <a href={ this.props.socialLinks[profile] }>{ profile }</a></span>);
                         }
-                        return <a key={profile[0]} href={ profile[1] }>{ profile[0] }</a>;
+                        return <a key={profile} href={ this.props.socialLinks[profile] }>{ profile }</a>;
                     })
                 }
-
             </div>
         );
     }
 }
 
-export default SocialCard;
+SocialWidget.propTypes = {
+    socialLinks: PropTypes.array
+};
+
+export default SocialWidget;

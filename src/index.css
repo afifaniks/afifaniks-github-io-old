@@ -21,3 +21,18 @@ a {
 a:hover {
   color: #005e5e;
 }
+
+.section-title {
+  text-align: left;
+  margin: 20px 0;
+}
+
+.company-name {
+  text-align: left !important;
+  margin: 5px 0;
+  font-size: 18px;
+}
+
+.text-left {
+  text-align: left !important;
+}
