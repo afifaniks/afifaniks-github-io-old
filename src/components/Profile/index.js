@@ -8,6 +8,8 @@ import { urlFormatter } from "../../utils/textProcessor";
 import ExperienceHolder from "../Experience";
 import EducationHolder from "../Education";
 import AchievementsHolder from "../Achievements";
+import PublicationHolder from "../Publication";
+import CertificationHolder from "../Certification";
 
 class ProfileView extends Component {
     constructor(props) {
@@ -19,7 +21,9 @@ class ProfileView extends Component {
             bio: "",
             experiences: [],
             educations: [],
-            achievements: []
+            achievements: [],
+            publications: [],
+            certifications: []
         };
     }
 
@@ -49,6 +53,8 @@ class ProfileView extends Component {
                         <ExperienceHolder experiences={this.state.experiences} />
                         <EducationHolder educations={this.state.educations} />
                         <AchievementsHolder achievements={this.state.achievements} />
+                        <PublicationHolder publications={this.state.publications} />
+                        <CertificationHolder certifications={this.state.certifications} />
                     </div>
                 </div>
             </div>
@@ -71,6 +77,8 @@ ProfileView.propTypes = {
         experiences: PropTypes.array,
         educations: PropTypes.array,
         achievements: PropTypes.array,
+        publications: PropTypes.array,
+        certifications: PropTypes.array
     }
 };
 

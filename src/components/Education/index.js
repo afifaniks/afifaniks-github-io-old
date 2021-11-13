@@ -6,7 +6,7 @@ class EducationHolder extends Component {
     render() {
         return (
             <div>
-                <h3 className="section-title">Education</h3>
+                <h3 className="section-title">Academic Background</h3>
                 <ul>
                     {
                         this.props.educations.map((educationInfo) => <li key={educationInfo.instituteName}>

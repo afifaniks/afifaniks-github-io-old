@@ -5,7 +5,7 @@ class ExperienceHolder extends Component {
     render() {
         return (
             <div>
-                <h3 className="section-title">Experience</h3>
+                <h3 className="section-title">Work Experience</h3>
                 <ul>
                     {
                         this.props.experiences.map((workExperience) => <li key={workExperience.companyName}>
