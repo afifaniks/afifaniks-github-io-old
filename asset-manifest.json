@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/afifaniks.github.io/static/css/main.1e7c4b33.chunk.css",
+    "main.js": "/afifaniks.github.io/static/js/main.51a4835b.chunk.js",
+    "main.js.map": "/afifaniks.github.io/static/js/main.51a4835b.chunk.js.map",
+    "runtime-main.js": "/afifaniks.github.io/static/js/runtime-main.3e2380a9.js",
+    "runtime-main.js.map": "/afifaniks.github.io/static/js/runtime-main.3e2380a9.js.map",
+    "static/css/2.383c0125.chunk.css": "/afifaniks.github.io/static/css/2.383c0125.chunk.css",
+    "static/js/2.9ecae15a.chunk.js": "/afifaniks.github.io/static/js/2.9ecae15a.chunk.js",
+    "static/js/2.9ecae15a.chunk.js.map": "/afifaniks.github.io/static/js/2.9ecae15a.chunk.js.map",
+    "static/js/3.465c59a4.chunk.js": "/afifaniks.github.io/static/js/3.465c59a4.chunk.js",
+    "static/js/3.465c59a4.chunk.js.map": "/afifaniks.github.io/static/js/3.465c59a4.chunk.js.map",
+    "index.html": "/afifaniks.github.io/index.html",
+    "static/css/2.383c0125.chunk.css.map": "/afifaniks.github.io/static/css/2.383c0125.chunk.css.map",
+    "static/css/main.1e7c4b33.chunk.css.map": "/afifaniks.github.io/static/css/main.1e7c4b33.chunk.css.map",
+    "static/js/2.9ecae15a.chunk.js.LICENSE.txt": "/afifaniks.github.io/static/js/2.9ecae15a.chunk.js.LICENSE.txt",
+    "static/media/dp.0db08243.jpeg": "/afifaniks.github.io/static/media/dp.0db08243.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3e2380a9.js",
+    "static/css/2.383c0125.chunk.css",
+    "static/js/2.9ecae15a.chunk.js",
+    "static/css/main.1e7c4b33.chunk.css",
+    "static/js/main.51a4835b.chunk.js"
+  ]
+}
