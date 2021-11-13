@@ -37,7 +37,7 @@ const PROFILE_DATA = Object.freeze({
             from: "May, 2016",
             to: "August, 2020",
             degreeType: "B.Sc in Computer Science & Engineering",
-            thesis: "[an-Eye: SAFE NAVIGATION IN FOOTPATH FOR VISUALLY IMPAIRED USING COMPUTER VISION TECHNIQUES](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=XuauQRIAAAAJ&citation_for_view=XuauQRIAAAAJ:u-x6o8ySG0sC)"
+            thesis: "[an-Eye: Safe Navigation in Footpath for Visually Impaired using Computer Vision Techniques](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=XuauQRIAAAAJ&citation_for_view=XuauQRIAAAAJ:u-x6o8ySG0sC)"
         },
         {
             instituteName: "Gurudayal Govt. College",

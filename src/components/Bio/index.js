@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import PropTypes from "prop-types";
 
 class BioCard extends Component {
     render() {
@@ -7,5 +8,9 @@ class BioCard extends Component {
         );
     }
 }
+
+BioCard.propTypes = {
+    bio: PropTypes.string
+};
 
 export default BioCard;

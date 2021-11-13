@@ -42,5 +42,6 @@ a:hover {
 }
 
 td {
+  vertical-align: top;
   padding: 3px 15px;
 }
