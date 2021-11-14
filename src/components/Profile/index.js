@@ -39,7 +39,7 @@ class ProfileView extends Component {
         this.setOpenGraphTags();
         return (
             <div className="card text-center">
-                <div className="card-body">
+                <div className="card-body container">
                     <img
                         className="img-fluid m-1 profile-picture"
                         src={ProfilePicture}
@@ -52,8 +52,8 @@ class ProfileView extends Component {
                     <div className="profile-tagline">
                         {this.state.headline}
                     </div>
-                    <SocialWidget socialLinks={this.state.socialLinks} />
                     <div className="container">
+                        <SocialWidget socialLinks={this.state.socialLinks} />
                         <BioCard bio={urlFormatter(this.state.bio)} />
                         <ExperienceHolder experiences={this.state.experiences} />
                         <EducationHolder educations={this.state.educations} />
