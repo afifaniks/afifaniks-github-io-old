@@ -32,10 +32,10 @@ class ProfileView extends Component {
         this.setState(
             this.props.profileData
         );
-        this.setOpenGraphTags();
     }
 
     render() {
+        this.setOpenGraphTags();
         return (
             <div className="card text-center">
                 <div className="card-body">
