@@ -101,7 +101,7 @@ const PROFILE_DATA = Object.freeze({
             author: "Datacamp"
         },
         {
-            title: "Introduction to NLP",
+            title: "Introduction to Natural Language Processing",
             url: "https://www.datacamp.com/statement-of-accomplishment/course/61ada754cb7d28baddc43a4524b5dd448070d745",
             author: "Datacamp"
         },

@@ -24,7 +24,7 @@ class PublicationHolder extends Component {
                                         publication.doi
                                         && <tr>
                                             <td className="text-left"><b>DOI</b></td>
-                                            <td className="text-left pl-1">{publication.doi}</td>
+                                            <td className="text-left pl-1 word-break">{publication.doi}</td>
                                         </tr>
                                     }
                                     <tr className="text-left">

@@ -42,6 +42,10 @@ a:hover {
     padding-left: 15px !important;
 }
 
+.word-break {
+    word-break: break-word;
+}
+
 td {
     vertical-align: top;
     padding: 3px 0;
