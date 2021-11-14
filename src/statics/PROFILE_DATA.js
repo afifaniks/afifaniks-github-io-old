@@ -8,6 +8,7 @@ const PROFILE_DATA = Object.freeze({
         + "Afif obtained his bachelor degree from the Department of Computer Science and Engineering of [Daffodil International University](https://daffodilvarsity.edu.bd/). "
         + "During his study in the university, he used to be a student prefect and took different courses.",
     homepage: "https://afifaniks.github.io",
+    email: "afifanik@gmail.com",
     socialLinks: {
         Github: "https://github.com/afifaniks",
         Instagram: "https://www.instagram.com/afifaniks/",

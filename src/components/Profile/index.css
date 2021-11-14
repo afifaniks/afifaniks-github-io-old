@@ -10,6 +10,11 @@
 }
 
 .profile-picture {
-    width: 200px;
-    height: auto;
+    width: 150px;
+    height: 150px;
+}
+
+.email-icon {
+    font-size: 18px;
+    cursor: pointer;
 }

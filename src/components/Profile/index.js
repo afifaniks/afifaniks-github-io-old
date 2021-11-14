@@ -3,7 +3,7 @@ import "./index.css";
 import PropTypes from "prop-types";
 import SocialWidget from "../Social";
 import BioCard from "../Bio";
-import ProfilePicture from "../../assets/images/dp.jpeg";
+import ProfilePicture from "../../assets/images/dp.png";
 import { urlFormatter } from "../../utils/textProcessor";
 import ExperienceHolder from "../Experience";
 import EducationHolder from "../Education";
@@ -17,6 +17,7 @@ class ProfileView extends Component {
         this.state = {
             profileName: "",
             headline: "",
+            email: "",
             socialLinks: {},
             bio: "",
             homepage: "",
@@ -40,11 +41,13 @@ class ProfileView extends Component {
             <div className="card text-center">
                 <div className="card-body">
                     <img
-                        className="img-fluid rounded-circle m-1 profile-picture"
+                        className="img-fluid m-1 profile-picture"
                         src={ProfilePicture}
                         alt={this.state.profileName} />
                     <div className="profile-name mt-1">
-                        {this.state.profileName}
+                        {this.state.profileName} <a className="email-icon" href={`mailto:${this.state.email}`}>
+                            <i className="far fa-envelope"/>
+                        </a>
                     </div>
                     <div className="profile-tagline">
                         {this.state.headline}
@@ -66,7 +69,7 @@ class ProfileView extends Component {
     setOpenGraphTags() {
         document.querySelector("[property=\"og:title\"]").content = this.state.profileName;
         document.querySelector("[property=\"og:site_name\"]").content = this.state.profileName;
-        document.querySelector("[property=\"og:description\"]").content = this.state.bio;
+        document.querySelector("[property=\"og:description\"]").content = this.state.headline;
         document.querySelector("[property=\"og:url\"]").content = this.state.homepage;
         document.querySelector("[property=\"og:image\"]").content = ProfilePicture;
         document.querySelector("[property=\"og:type\"]").content = "profile";
