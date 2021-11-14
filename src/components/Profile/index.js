@@ -3,7 +3,7 @@ import "./index.css";
 import PropTypes from "prop-types";
 import SocialWidget from "../Social";
 import BioCard from "../Bio";
-import ProfilePicture from "../../assets/images/dp.png";
+import ProfilePicture from "../../assets/images/dp.svg";
 import { urlFormatter } from "../../utils/textProcessor";
 import ExperienceHolder from "../Experience";
 import EducationHolder from "../Education";
