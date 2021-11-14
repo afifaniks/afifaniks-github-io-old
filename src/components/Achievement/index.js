@@ -5,7 +5,7 @@ class AchievementsHolder extends Component {
     render() {
         return (
             <div>
-                <h3 className="section-title">Achievements</h3>
+                <h3 className="section-title">Achievement</h3>
                 <ul>
                     {
                         this.props.achievements.map((achievement) => <li key={achievement.title}>

@@ -56,6 +56,12 @@ ul {
     padding-left: 0 !important;
 }
 
+@media only screen and (min-width: 768px) {
+    ul {
+        padding-left: 2rem !important;
+    }
+}
+
 li {
     list-style: none;
 }

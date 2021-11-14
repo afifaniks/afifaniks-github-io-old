@@ -7,7 +7,7 @@ import ProfilePicture from "../../assets/images/dp.png";
 import { urlFormatter } from "../../utils/textProcessor";
 import ExperienceHolder from "../Experience";
 import EducationHolder from "../Education";
-import AchievementsHolder from "../Achievements";
+import AchievementsHolder from "../Achievement";
 import PublicationHolder from "../Publication";
 import CertificationHolder from "../Certification";
 
