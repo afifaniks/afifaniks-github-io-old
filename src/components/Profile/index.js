@@ -10,6 +10,7 @@ import EducationHolder from "../Education";
 import AchievementsHolder from "../Achievement";
 import PublicationHolder from "../Publication";
 import CertificationHolder from "../Certification";
+import SpecializationHolder from "../Specialization";
 
 class ProfileView extends Component {
     constructor(props) {
@@ -25,7 +26,8 @@ class ProfileView extends Component {
             educations: [],
             achievements: [],
             publications: [],
-            certifications: []
+            certifications: [],
+            specializations: []
         };
     }
 
@@ -55,6 +57,7 @@ class ProfileView extends Component {
                     <div className="container">
                         <SocialWidget socialLinks={this.state.socialLinks} />
                         <BioCard bio={urlFormatter(this.state.bio)} />
+                        <SpecializationHolder specializations={this.state.specializations} />
                         <ExperienceHolder experiences={this.state.experiences} />
                         <EducationHolder educations={this.state.educations} />
                         <AchievementsHolder achievements={this.state.achievements} />

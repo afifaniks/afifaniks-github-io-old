@@ -175,7 +175,15 @@ const PROFILE_DATA = Object.freeze({
             url: "https://www.coursera.org/account/accomplishments/certificate/DWU9YKJGD3RY",
             author: "Coursera"
         },
-
+    ],
+    specializations: [
+        "Deep Learning",
+        "Computer Vision",
+        "Natural Language Processing",
+        "Software Development",
+        "API Development",
+        "Version Control Systems",
+        "Agile"
     ]
 });
 
