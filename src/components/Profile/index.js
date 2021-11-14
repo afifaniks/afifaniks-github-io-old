@@ -19,6 +19,7 @@ class ProfileView extends Component {
             headline: "",
             socialLinks: {},
             bio: "",
+            homepage: "",
             experiences: [],
             educations: [],
             achievements: [],
@@ -31,6 +32,7 @@ class ProfileView extends Component {
         this.setState(
             this.props.profileData
         );
+        this.setOpenGraphTags();
     }
 
     render() {
@@ -60,26 +62,19 @@ class ProfileView extends Component {
             </div>
         );
     }
+
+    setOpenGraphTags() {
+        document.querySelector("[property=\"og:title\"]").content = this.state.profileName;
+        document.querySelector("[property=\"og:site_name\"]").content = this.state.profileName;
+        document.querySelector("[property=\"og:description\"]").content = this.state.bio;
+        document.querySelector("[property=\"og:url\"]").content = this.state.homepage;
+        document.querySelector("[property=\"og:image\"]").content = ProfilePicture;
+        document.querySelector("[property=\"og:type\"]").content = "profile";
+    }
 }
 
 ProfileView.propTypes = {
-    profileData: {
-        profileName: PropTypes.string.isRequired,
-        headline: PropTypes.string,
-        socialLinks: {
-            Github: PropTypes.string,
-            Instagram: PropTypes.string,
-            Linkedin: PropTypes.string,
-            "Google Scholar": PropTypes.string,
-            ResearchGate: PropTypes.string
-        },
-        bio: PropTypes.string.isRequired,
-        experiences: PropTypes.array,
-        educations: PropTypes.array,
-        achievements: PropTypes.array,
-        publications: PropTypes.array,
-        certifications: PropTypes.array
-    }
+    profileData: PropTypes.object.isRequired
 };
 
 export default ProfileView;

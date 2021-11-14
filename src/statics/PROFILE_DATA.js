@@ -7,6 +7,7 @@ const PROFILE_DATA = Object.freeze({
         + "Being an AI enthusiast, he is actively researching in the field of Deep Learning & Computer Vision and has published a few scholarly articles. "
         + "Afif obtained his bachelor degree from the Department of Computer Science and Engineering of [Daffodil International University](https://daffodilvarsity.edu.bd/). "
         + "During his study in the university, he used to be a student prefect and took different courses.",
+    homepage: "https://afifaniks.github.io",
     socialLinks: {
         Github: "https://github.com/afifaniks",
         Instagram: "https://www.instagram.com/afifaniks/",
@@ -52,7 +53,7 @@ const PROFILE_DATA = Object.freeze({
             title: "Professor Dr.  M. Lutfar Rahman Scholarship",
             time: "2017",
             awardedBy: "Daffodil International University",
-            desc: "Awarded for maintaining highest CGPA (4.00) in the department in 1st year"
+            desc: "Highest GPA (4.00) in the department in the 1st year"
         },
         {
             title: "Education Board Scholarship",

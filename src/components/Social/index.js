@@ -22,7 +22,7 @@ class SocialWidget extends Component {
 }
 
 SocialWidget.propTypes = {
-    socialLinks: PropTypes.array
+    socialLinks: PropTypes.object
 };
 
 export default SocialWidget;

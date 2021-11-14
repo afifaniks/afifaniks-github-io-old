@@ -1,7 +1,7 @@
 import "./App.css";
 import React from "react";
 import ProfileView from "./components/Profile";
-import PROFILE_DATA from "./statics/Data";
+import PROFILE_DATA from "./statics/PROFILE_DATA";
 
 function App() {
     return (
