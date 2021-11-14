@@ -4,6 +4,14 @@ body {
     background: #f8f8f8;
 }
 
+@media only screen and (min-width: 768px) {
+    .card {
+        max-width: 75%;
+        margin: 0 auto; /* Added */
+        float: none; /* Added */
+    }
+}
+
 .justify-text {
     text-align: justify;
 }
@@ -27,7 +35,7 @@ a:hover {
     margin: 20px 0;
 }
 
-.org-title {
+.key-element {
     text-align: left !important;
     margin: 8px 0;
     font-size: 18px;
@@ -58,6 +66,10 @@ ul {
 
 @media only screen and (min-width: 768px) {
     ul {
+        padding-left: 2rem !important;
+    }
+
+    .p-l-2 {
         padding-left: 2rem !important;
     }
 }

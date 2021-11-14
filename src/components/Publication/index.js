@@ -9,7 +9,7 @@ class PublicationHolder extends Component {
                 <ul>
                     {
                         this.props.publications.map((publication) => <li key={publication.title}>
-                            <p className="org-title" >
+                            <p className="key-element" >
                                 <a href={publication.url}>
                                     {publication.title}
                                 </a>

@@ -9,7 +9,7 @@ class CertificationHolder extends Component {
                 <ul>
                     {
                         this.props.certifications.map((certificate) => <li key={certificate.title}>
-                            <p className="org-title" >
+                            <p className="key-element" >
                                 <a href={certificate.url}>
                                     {certificate.title}
                                 </a>

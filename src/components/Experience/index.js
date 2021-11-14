@@ -9,7 +9,7 @@ class ExperienceHolder extends Component {
                 <ul>
                     {
                         this.props.experiences.map((workExperience) => <li key={workExperience.companyName}>
-                            <p className="org-title" >
+                            <p className="key-element" >
                                 <a href={workExperience.companyWebsite}>
                                     {workExperience.companyName}
                                 </a>

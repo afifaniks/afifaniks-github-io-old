@@ -183,7 +183,6 @@ const PROFILE_DATA = Object.freeze({
         "Software Development",
         "API Development",
         "Version Control Systems",
-        "Agile"
     ]
 });
 

@@ -9,7 +9,7 @@ class AchievementsHolder extends Component {
                 <ul>
                     {
                         this.props.achievements.map((achievement) => <li key={achievement.title}>
-                            <p className="org-title" >
+                            <p className="key-element" >
                                 {achievement.title}
                             </p>
                             <table className="table-borderless">

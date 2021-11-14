@@ -10,7 +10,7 @@ class EducationHolder extends Component {
                 <ul>
                     {
                         this.props.educations.map((educationInfo) => <li key={educationInfo.instituteName}>
-                            <p className="org-title" >
+                            <p className="key-element" >
                                 <a href={educationInfo.instituteWebsite}>
                                     {educationInfo.instituteName}
                                 </a>

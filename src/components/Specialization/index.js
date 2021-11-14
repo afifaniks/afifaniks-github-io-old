@@ -6,15 +6,14 @@ class SpecializationHolder extends Component {
         return (
             <div>
                 <h3 className="section-title">Specialization</h3>
-                <ul>
+                <div className="row p-l-2">
                     {
-                        this.props.specializations.map((specialization, index) => <li key={index}>
-                            <p className="org-title" >
-                                {specialization}
-                            </p>
-                        </li>)
+                        this.props.specializations.map((specialization) => <div className="key-element col-lg-4 col-md-6 text-left"
+                            key={specialization}>
+                            {specialization}
+                        </div>)
                     }
-                </ul>
+                </div>
             </div>
         );
     }
