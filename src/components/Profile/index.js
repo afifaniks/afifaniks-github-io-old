@@ -4,6 +4,7 @@ import PropTypes from "prop-types";
 import SocialWidget from "../Social";
 import BioCard from "../Bio";
 import ProfilePicture from "../../assets/images/dp.svg";
+import MetaProfilePicture from "../../assets/images/dp.png";
 import { urlFormatter } from "../../utils/textProcessor";
 import ExperienceHolder from "../Experience";
 import EducationHolder from "../Education";
@@ -74,7 +75,7 @@ class ProfileView extends Component {
         document.querySelector("[property=\"og:site_name\"]").content = this.state.profileName;
         document.querySelector("[property=\"og:description\"]").content = this.state.headline;
         document.querySelector("[property=\"og:url\"]").content = this.state.homepage;
-        document.querySelector("[property=\"og:image\"]").content = ProfilePicture;
+        document.querySelector("[property=\"og:image\"]").content = MetaProfilePicture;
         document.querySelector("[property=\"og:type\"]").content = "profile";
     }
 }
