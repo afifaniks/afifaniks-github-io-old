@@ -2,7 +2,7 @@ const PROFILE_DATA = Object.freeze({
     profileName: "Afif Al Mamun",
     headline: "Machine Learning Engineer",
     bio: "Afif Al Mamun is a software engineer from Dhaka, Bangladesh. "
-        + "He is currently working at [Infolytx Bangladesh Ltd.](infolytx.com) as a software engineer in machine learning.\n\n"
+        + "He is currently working at [Infolytx Bangladesh Ltd.](infolytx.com) as a software engineer in machine learning."
         + "Previously, he used to work at [ServicEngine Ltd.](sebpo.com) as a software engineer where his main role was to develop web scrapers as per clients' requirements and also developing modules in Java for the company framework. "
         + "Being an AI enthusiast, he is actively researching in the field of Deep Learning & Computer Vision and has published a few scholarly articles. "
         + "Afif obtained his bachelor degree from the Department of Computer Science and Engineering of [Daffodil International University](https://daffodilvarsity.edu.bd/). "
@@ -83,6 +83,44 @@ const PROFILE_DATA = Object.freeze({
             doi: "10.1109/SMART46866.2019.9117400",
             publisher: "SMART 2019 (IEEE)",
             year: 2019
+        },
+    ],
+    projects: [
+        {
+            title: "anEye",
+            url: "https://sites.google.com/view/a-Eye"
+        },
+        {
+            title: "Bangla Music Genre Classifier",
+            url: "https://github.com/afifaniks/BanglaMusicGenreClassification"
+        },
+        {
+            title: "React Weather App",
+            url: "https://afifaniks.github.io/weather-app-react/"
+        },
+        {
+            title: "Landscape BD Website",
+            url: "https://landscapebd.com"
+        },
+        {
+            title: "Educator Website",
+            url: "https://educator-bd.com"
+        },
+        {
+            title: "Inventory Management System",
+            url: "https://github.com/afifaniks/InventorySystem"
+        },
+        {
+            title: "File Retriever",
+            url: "https://github.com/afifaniks/FileRetriever"
+        },
+        {
+            title: "Floyd Warshall Algorithm Simulation",
+            url: "https://github.com/afifaniks/FloydWarshallSimulation"
+        },
+        {
+            title: "Java Swing Shopping Cart",
+            url: "https://github.com/afifaniks/ShoppingCartinJava"
         },
     ],
     certifications: [

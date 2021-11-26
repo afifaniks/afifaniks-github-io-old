@@ -11,6 +11,7 @@ import AchievementsHolder from "../Achievement";
 import PublicationHolder from "../Publication";
 import CertificationHolder from "../Certification";
 import SpecializationHolder from "../Specialization";
+import ProjectsHolder from "../Project";
 
 class ProfileView extends Component {
     constructor(props) {
@@ -27,7 +28,8 @@ class ProfileView extends Component {
             achievements: [],
             publications: [],
             certifications: [],
-            specializations: []
+            specializations: [],
+            projects: []
         };
     }
 
@@ -62,6 +64,7 @@ class ProfileView extends Component {
                         <EducationHolder educations={this.state.educations} />
                         <AchievementsHolder achievements={this.state.achievements} />
                         <PublicationHolder publications={this.state.publications} />
+                        <ProjectsHolder projects={this.state.projects} />
                         <CertificationHolder certifications={this.state.certifications} />
                     </div>
                 </div>

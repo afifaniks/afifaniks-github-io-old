@@ -85,3 +85,8 @@ b {
 .text-small {
     font-size: 15px;
 }
+
+.info-icon {
+    color: gray;
+    font-size: 13px;
+}
