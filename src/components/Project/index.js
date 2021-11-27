@@ -14,11 +14,19 @@ class ProjectsHolder extends Component {
                 <ul>
                     {
                         this.props.projects.map((project) => <li key={project.title}>
-                            <p className="key-element" >
-                                <a href={project.url}>
-                                    {project.title}
-                                </a>
-                            </p>
+                            <div>
+                                <div className="key-element mb-0">
+                                    <a href={project.url}>
+                                        {project.title}
+                                    </a>
+                                </div>
+                                {
+                                    project.stack
+                                    && <div className="text-left">
+                                        <b>Stack: </b><small>{project.stack.join(", ")}</small>
+                                    </div>
+                                }
+                            </div>
                         </li>)
                     }
                 </ul>

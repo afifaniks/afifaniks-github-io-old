@@ -88,39 +88,48 @@ const PROFILE_DATA = Object.freeze({
     projects: [
         {
             title: "anEye",
-            url: "https://sites.google.com/view/a-Eye"
+            url: "https://sites.google.com/view/a-Eye",
+            stack: ["Tensorflow", "Keras", "Python"]
         },
         {
             title: "Bangla Music Genre Classifier",
-            url: "https://github.com/afifaniks/BanglaMusicGenreClassification"
+            url: "https://github.com/afifaniks/BanglaMusicGenreClassification",
+            stack: ["Tensorflow", "Keras", "Python"]
         },
         {
             title: "React Weather App",
-            url: "https://afifaniks.github.io/weather-app-react/"
+            url: "https://afifaniks.github.io/weather-app-react/",
+            stack: ["React.js", "Bootstrap"]
         },
         {
             title: "Landscape BD Website",
-            url: "https://landscapebd.com"
+            url: "https://landscapebd.com",
+            stack: ["Wordpress"]
         },
         {
             title: "Educator Website",
-            url: "https://educator-bd.com"
+            url: "https://educator-bd.com",
+            stack: ["Django", "Bootstrap"]
         },
         {
             title: "Inventory Management System",
-            url: "https://github.com/afifaniks/InventorySystem"
+            url: "https://github.com/afifaniks/InventorySystem",
+            stack: ["JavaFX", "MySQL"]
         },
         {
             title: "File Retriever",
-            url: "https://github.com/afifaniks/FileRetriever"
+            url: "https://github.com/afifaniks/FileRetriever",
+            stack: ["Android", "Java", "Cross-platform"]
         },
         {
             title: "Floyd Warshall Algorithm Simulation",
-            url: "https://github.com/afifaniks/FloydWarshallSimulation"
+            url: "https://github.com/afifaniks/FloydWarshallSimulation",
+            stack: ["JavaFX"]
         },
         {
             title: "Java Swing Shopping Cart",
-            url: "https://github.com/afifaniks/ShoppingCartinJava"
+            url: "https://github.com/afifaniks/ShoppingCartinJava",
+            stack: ["Java"]
         },
     ],
     certifications: [
