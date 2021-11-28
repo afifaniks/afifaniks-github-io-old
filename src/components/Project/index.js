@@ -23,7 +23,7 @@ class ProjectsHolder extends Component {
                                 {
                                     project.stack
                                     && <div className="text-left">
-                                        <b>Stack: </b><small>{project.stack.join(", ")}</small>
+                                        Using <b>{project.stack.join(", ")}</b>
                                     </div>
                                 }
                             </div>
