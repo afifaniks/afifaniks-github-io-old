@@ -89,7 +89,7 @@ const PROFILE_DATA = Object.freeze({
         {
             title: "anEye",
             url: "https://sites.google.com/view/a-Eye",
-            stack: ["Tensorflow", "Keras", "Python"]
+            stack: ["Tensorflow", "Keras", "OpenCV", "Python"]
         },
         {
             title: "Bangla Music Genre Classifier",
