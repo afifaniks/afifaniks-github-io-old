@@ -2,7 +2,7 @@ const PROFILE_DATA = Object.freeze({
     profileName: "Afif Al Mamun",
     headline: "Machine Learning Engineer",
     bio: "Afif Al Mamun is a software engineer from Dhaka, Bangladesh. "
-        + "He is currently working at [Infolytx Bangladesh Ltd.](infolytx.com) as a software engineer in machine learning."
+        + "He is currently working at [Infolytx Bangladesh Ltd.](infolytx.com) as a software engineer in machine learning. "
         + "Previously, he used to work at [ServicEngine Ltd.](sebpo.com) as a software engineer where his main role was to develop web scrapers as per clients' requirements and also developing modules in Java for the company framework. "
         + "Being an AI enthusiast, he is actively researching in the field of Deep Learning & Computer Vision and has published a few scholarly articles. "
         + "Afif obtained his bachelor degree from the Department of Computer Science and Engineering of [Daffodil International University](https://daffodilvarsity.edu.bd/). "
@@ -133,6 +133,11 @@ const PROFILE_DATA = Object.freeze({
         },
     ],
     certifications: [
+        {
+            title: "Feature Engineering for NLP in Python",
+            url: "https://www.datacamp.com/statement-of-accomplishment/course/5be12dd44ff881a4909c7e317a14761f750b4a24",
+            author: "Datacamp"
+        },
         {
             title: "Advanced NLP with spaCy",
             url: "https://www.datacamp.com/statement-of-accomplishment/course/f3a0a3f616e03df251b743cc97dd378ca69105ac",
