@@ -5,6 +5,14 @@ export function urlFormatter(text) {
     );
 }
 
+export function boldFormatter(text) {
+    return text && text.replace(
+        /(\*{2})(.*?)(\*{2})/ig,
+        "<b>$2</b>"
+    );
+}
+
 export default {
-    urlFormatter
+    urlFormatter,
+    boldFormatter
 };

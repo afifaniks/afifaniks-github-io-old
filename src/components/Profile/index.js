@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 import SocialWidget from "../Social";
 import BioCard from "../Bio";
 import ProfilePicture from "../../assets/images/dp.jpeg";
-import { urlFormatter } from "../../utils/textProcessor";
+import { boldFormatter, urlFormatter } from "../../utils/textProcessor";
 import ExperienceHolder from "../Experience";
 import EducationHolder from "../Education";
 import AchievementsHolder from "../Achievement";
@@ -58,7 +58,7 @@ class ProfileView extends Component {
                     </div>
                     <div className="container">
                         <SocialWidget socialLinks={this.state.socialLinks} />
-                        <BioCard bio={urlFormatter(this.state.bio)} />
+                        <BioCard bio={boldFormatter(urlFormatter(this.state.bio))} />
                         <SpecializationHolder specializations={this.state.specializations} />
                         <ExperienceHolder experiences={this.state.experiences} />
                         <EducationHolder educations={this.state.educations} />
