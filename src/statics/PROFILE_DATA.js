@@ -56,7 +56,7 @@ const PROFILE_DATA = Object.freeze({
             title: "50 Years Victory of Bangladesh Gold Medal",
             time: "2022",
             awardedBy: "Daffodil International University",
-            desc: "Recognition of academic accomplishment during the undergrad."
+            desc: "Recognition of academic accomplishment during the undergrad. The medal was given by the Hon'ble Minister of Education Dr. Dipu Moni on the 9th convocation of the university dated January 9, 2022."
         },
         {
             title: "Professor Dr.  M. Lutfar Rahman Scholarship",
