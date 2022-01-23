@@ -5,7 +5,7 @@ class PublicationHolder extends Component {
     render() {
         return (
             <div>
-                <h3 className="section-title">Publication</h3>
+                <h3 className="section-title">Publications</h3>
                 <ul>
                     {
                         this.props.publications.map((publication) => <li key={publication.title}>

@@ -243,6 +243,20 @@ const PROFILE_DATA = Object.freeze({
         "Software Development",
         "API Development",
         "Version Control Systems",
+    ],
+    opinions: [
+        {
+            body: "Afif is a terrific, lively, and astute coder. He is also a fast learner. For a year, I was in charge of him. But the way he groomed himself was amazing! He was a fresh graduate when he joined my team. But take a peek at him right now! He drives his worth to a new level. Thanks to him for being a part of my team. I wish him all the very best.",
+            provider: "Tanveer Noman, PMP (AVP, Software Development, ServicEngine Ltd.)"
+        },
+        {
+            body: "From the very first day of his work in my Team, Afif showed his pro-activeness and competency and as his Team In-charge I had the opportunity to witness that. Later in the journey he never failed to proof himself by portraying his strong skillset and knowledge. He encountered every challenge confidently that was passed at him, and left his marks of expertise and sincerity through his remarkable contributions. I wish Afif every success in his life, and I am sure he will go a long way.",
+            provider: "Mustafa Tawheed, Team Lead (Software Development, ServicEngine Ltd.)"
+        },
+        {
+            body: "Knowledgeable and competent! I know Afif since his early years at university, and his undergrad thesis was under my supervision. He has always been a self-learner, proactive, and needed very little guidance. I wish him the very best in his future endeavours.",
+            provider: "Subroto Nag Pinku (Research Assistant, University of Saskatchewan)"
+        },
     ]
 });
 

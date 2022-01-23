@@ -5,7 +5,7 @@ class CertificationHolder extends Component {
     render() {
         return (
             <div>
-                <h3 className="section-title">Certification</h3>
+                <h3 className="section-title">Certifications</h3>
                 <ul>
                     {
                         this.props.certifications.map((certificate) => <li key={certificate.title}>
