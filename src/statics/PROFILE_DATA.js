@@ -22,9 +22,16 @@ const PROFILE_DATA = Object.freeze({
         {
             companyName: "Infolytx Bangladesh Ltd.",
             companyWebsite: "https://infolytx.com",
-            from: "July, 2021",
+            from: "January, 2022",
             to: "till date",
-            designation: "Machine Learning Engineer",
+            designation: "Software Engineer I in AI/ML",
+        },
+        {
+            companyName: "Infolytx Bangladesh Ltd.",
+            companyWebsite: "https://infolytx.com",
+            from: "July, 2021",
+            to: "December, 2021",
+            designation: "Jr. Software Engineer in AI/ML",
         },
         {
             companyName: "ServicEngine Ltd.",
