@@ -59,7 +59,9 @@ class ProfileView extends Component {
                         {this.state.headline}
                     </div>
                     <div className="container">
-                        <SocialWidget socialLinks={this.state.socialLinks} />
+                        <div className="m-2">
+                            <SocialWidget socialLinks={this.state.socialLinks} />
+                        </div>
                         <BioCard bio={boldFormatter(urlFormatter(this.state.bio))} />
                         <SpecializationHolder specializations={this.state.specializations} />
                         <ExperienceHolder experiences={this.state.experiences} />

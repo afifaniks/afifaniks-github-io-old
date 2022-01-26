@@ -7,6 +7,7 @@
 .profile-name {
     font-weight: 500;
     font-size: 36px;
+    margin-bottom: 0px !important;
 }
 
 .profile-picture {
@@ -16,6 +17,19 @@
 }
 
 .email-icon {
-    font-size: 18px;
     cursor: pointer;
+    font-size: 20px;
+}
+
+.bg-highlight {
+    background: darkcyan;
+    padding: 5px 10px;
+    border-radius: 14px;
+    color: white;
+    font-size: 15px;
+}
+
+.bg-highlight:hover {
+    background: #005e5e;
+    color: white;
 }

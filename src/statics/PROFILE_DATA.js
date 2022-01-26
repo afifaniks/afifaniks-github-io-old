@@ -16,7 +16,7 @@ const PROFILE_DATA = Object.freeze({
         Linkedin: "https://www.linkedin.com/in/afifaniks/",
         "Google Dev": "https://g.dev/afifaniks",
         "Google Scholar": "https://scholar.google.com/citations?user=XuauQRIAAAAJ&hl=en",
-        ResearchGate: "https://www.researchgate.net/profile/Md-Afif-Al-Mamun"
+        ResearchGate: "https://www.researchgate.net/profile/Md-Afif-Al-Mamun",
     },
     experiences: [
         {

@@ -1,11 +1,12 @@
 import React, { Component } from "react";
 import "./index.css";
 import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
 
 class SocialWidget extends Component {
     render() {
         return (
-            <div className="d-inline-block m-2">
+            <div className="d-inline-block">
                 {
                     this.props.socialLinks
                     && Object.keys(this.props.socialLinks).map((profile, index) => {
@@ -16,6 +17,9 @@ class SocialWidget extends Component {
                         return <a key={profile} href={ this.props.socialLinks[profile] }>{ profile }</a>;
                     })
                 }
+                <div className="m-2">
+                    <Link to="/blogs" className="bg-highlight"> <i className="fas fa-blog"></i> Jump to the Blog</Link>
+                </div>
             </div>
         );
     }
