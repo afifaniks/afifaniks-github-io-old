@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import "./index.css";
 import PropTypes from "prop-types";
-import { Link } from "react-router-dom";
 
 class SocialWidget extends Component {
     render() {
@@ -18,7 +17,7 @@ class SocialWidget extends Component {
                     })
                 }
                 <div className="m-2">
-                    <Link to="/blog" className="bg-highlight">Jump to the Blog</Link>
+                    <a href="https://afifaniks.github.io/blog" className="bg-highlight">Jump to the Blog</a>
                 </div>
             </div>
         );
