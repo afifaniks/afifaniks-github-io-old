@@ -5,7 +5,6 @@ import {
 } from "react-router-dom";
 import ProfileView from "./components/Profile";
 import PROFILE_DATA from "./statics/PROFILE_DATA";
-import BlogPage from "./components/Blog";
 
 function App() {
     return (
@@ -15,7 +14,6 @@ function App() {
                     <BrowserRouter>
                         <Routes>
                             <Route path="/" element={<ProfileView profileData={PROFILE_DATA}/>} exact />
-                            <Route path="/blogs" element={<BlogPage />} exact/>
                         </Routes>
                     </BrowserRouter>
                 </div>

@@ -18,7 +18,7 @@ class SocialWidget extends Component {
                     })
                 }
                 <div className="m-2">
-                    <Link to="/blogs" className="bg-highlight"> <i className="fas fa-blog"></i> Jump to the Blog</Link>
+                    <Link to="/blog" className="bg-highlight">Jump to the Blog</Link>
                 </div>
             </div>
         );
