@@ -5,7 +5,10 @@ class CertificationHolder extends Component {
     render() {
         return (
             <div>
-                <h3 className="section-title">Certifications</h3>
+                <div className="section-title d-flex">
+                    <h3>Certifications</h3>
+                    <small>&nbsp;<b>({this.props.certifications.length})</b></small>
+                </div>
                 <ul>
                     {
                         this.props.certifications.map((certificate) => <li key={certificate.title}>

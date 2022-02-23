@@ -148,6 +148,11 @@ const PROFILE_DATA = Object.freeze({
     ],
     certifications: [
         {
+            title: "MongoDB Basics",
+            url: "https://university.mongodb.com/course_completion/11fc3265-86c6-4344-9fcc-c9ac19093c86/printable?format=pdf",
+            author: "MongoDB University"
+        },
+        {
             title: "Feature Engineering for NLP in Python",
             url: "https://www.datacamp.com/statement-of-accomplishment/course/5be12dd44ff881a4909c7e317a14761f750b4a24",
             author: "Datacamp"
