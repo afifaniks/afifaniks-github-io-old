@@ -22,23 +22,30 @@ const PROFILE_DATA = Object.freeze({
         {
             companyName: "Infolytx Bangladesh Ltd.",
             companyWebsite: "https://infolytx.com",
-            from: "January, 2022",
-            to: "till date",
-            designation: "Software Engineer I in AI/ML",
-        },
-        {
-            companyName: "Infolytx Bangladesh Ltd.",
-            companyWebsite: "https://infolytx.com",
-            from: "July, 2021",
-            to: "December, 2021",
-            designation: "Jr. Software Engineer in AI/ML",
+            history: [
+                {
+                    designation: "Software Engineer I in AI/ML",
+                    from: "January, 2022",
+                    to: "till date",
+                    affliatedProjects: []
+                },
+                {
+                    designation: "Jr. Software Engineer in AI/ML",
+                    from: "July, 2021",
+                    to: "December, 2021",
+                }
+            ]
         },
         {
             companyName: "ServicEngine Ltd.",
             companyWebsite: "https://sebpo.com",
-            from: "July, 2020",
-            to: "June, 2021",
-            designation: "Software Engineer",
+            history: [
+                {
+                    designation: "Software Engineer",
+                    from: "July, 2020",
+                    to: "June, 2021",
+                }
+            ]
         },
     ],
     educations: [

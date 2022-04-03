@@ -14,17 +14,15 @@ class ExperienceHolder extends Component {
                                     {workExperience.companyName}
                                 </a>
                             </p>
-                            <table className="table-borderless">
-                                <tbody>
-                                    <tr className="text-left">
-                                        <td className="text-left"><b>Designation</b></td>
-                                        <td className="text-left pl-1">{workExperience.designation}</td>
-                                    </tr><tr>
-                                        <td className="text-left"><b>Period</b></td>
-                                        <td className="text-left pl-1">{workExperience.from} - {workExperience.to}</td>
-                                    </tr>
-                                </tbody>
-                            </table>
+                            {
+                                workExperience.history.map((history, index) => <div key={history.designation} className="text-left">
+                                    <p className="m-0 p-0"><b>{history.designation}</b></p>
+                                    <small>{history.from} - {history.to}</small>
+                                    {
+                                        index < workExperience.history.length - 1 ? <hr className="width-20"/> : <></>
+                                    }
+                                </div>)
+                            }
                         </li>)
                     }
                 </ul>
