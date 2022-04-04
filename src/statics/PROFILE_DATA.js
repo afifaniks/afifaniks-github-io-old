@@ -27,7 +27,12 @@ const PROFILE_DATA = Object.freeze({
                     designation: "Software Engineer I in AI/ML",
                     from: "January, 2022",
                     to: "till date",
-                    affliatedProjects: []
+                    affiliatedProjects: [
+                        {
+                            name: "Bank Statement Data Extractor",
+                            desc: "Extracting different financial data of a user by analyzing bank statement images, using NLP."
+                        }
+                    ]
                 },
                 {
                     designation: "Jr. Software Engineer in AI/ML",

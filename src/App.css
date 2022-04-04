@@ -111,6 +111,11 @@ b {
     }
 }
 
-.width-20 {
+.width-10 {
     width: 10%;
+}
+
+.work-history {
+    margin-bottom: 1rem;
+    margin-left: 1rem;
 }
