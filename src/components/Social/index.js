@@ -8,17 +8,10 @@ class SocialWidget extends Component {
             <div className="d-inline-block">
                 {
                     this.props.socialLinks
-                    && Object.keys(this.props.socialLinks).map((profile, index) => {
-                        if (index > 0) {
-                            return (
-                                <span key={profile}> | <a href={ this.props.socialLinks[profile] }>{ profile }</a></span>);
-                        }
-                        return <a key={profile} href={ this.props.socialLinks[profile] }>{ profile }</a>;
-                    })
+                    // eslint-disable-next-line array-callback-return
+                    && Object.keys(this.props.socialLinks).map((profile) => <span key={profile}><a href={ this.props.socialLinks[profile] }>{ profile }</a> | </span>)
                 }
-                <div className="m-2">
-                    <a href="https://afifaniks.github.io/blog" className="bg-highlight">Jump to the Blog</a>
-                </div>
+                <a href="https://afifaniks.github.io/blog" className="bg-highlight">Blog</a>
             </div>
         );
     }

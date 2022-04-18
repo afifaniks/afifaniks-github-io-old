@@ -12,7 +12,7 @@ import PublicationHolder from "../Publication";
 import CertificationHolder from "../Certification";
 import SpecializationHolder from "../Specialization";
 import ProjectsHolder from "../Project";
-import OpinionHolder from "../Opinion";
+import RecommendationHolder from "../Recommendations";
 
 class ProfileView extends Component {
     constructor(props) {
@@ -59,7 +59,7 @@ class ProfileView extends Component {
                         {this.state.headline}
                     </div>
                     <div className="container">
-                        <div className="m-2">
+                        <div className="m-2 mb-4">
                             <SocialWidget socialLinks={this.state.socialLinks} />
                         </div>
                         <BioCard bio={boldFormatter(urlFormatter(this.state.bio))} />
@@ -70,7 +70,7 @@ class ProfileView extends Component {
                         <PublicationHolder publications={this.state.publications} />
                         <ProjectsHolder projects={this.state.projects} />
                         <CertificationHolder certifications={this.state.certifications} />
-                        <OpinionHolder opinions={this.state.opinions}/>
+                        <RecommendationHolder opinions={this.state.opinions}/>
                     </div>
                 </div>
             </div>

@@ -24,9 +24,10 @@
 .bg-highlight {
     background: darkcyan;
     padding: 5px 10px;
-    border-radius: 14px;
+    border-radius: 5px;
     color: white;
     font-size: 15px;
+    transition: 0.5s;
 }
 
 .bg-highlight:hover {

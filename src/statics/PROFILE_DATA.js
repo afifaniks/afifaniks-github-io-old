@@ -273,6 +273,10 @@ const PROFILE_DATA = Object.freeze({
             provider: "Mustafa Tawheed, Team Lead (Software Development, ServicEngine Ltd.)"
         },
         {
+            body: "I have known Mamun for more than three years as a student. I first encountered him when he was in my Artificial Intelligence Course. He was one of the most attentive students in that course. His problem-solving ability impressed me. After that, he did some tremendous research work on music genre analysis with machine learning which made him different from others.",
+            provider: "Shahariar Rabby (Ph.D. student and Blazer Fellow, University of Alabama at Birmingham)"
+        },
+        {
             body: "Knowledgeable and competent! I know Afif since his early years at university, and his undergrad thesis was under my supervision. He has always been a self-learner, proactive, and needed very little guidance. I wish him the very best in his future endeavours.",
             provider: "Subroto Nag Pinku (Research Assistant, University of Saskatchewan)"
         },
