@@ -261,12 +261,12 @@ const PROFILE_DATA = Object.freeze({
         },
     ],
     specializations: [
-        "Deep Learning",
-        "Computer Vision",
+        "Machine Learning",
         "Natural Language Processing",
+        "Computer Vision",
         "Software Development",
         "API Development",
-        "Version Control Systems",
+        "Amazon Web Services",
     ],
     opinions: [
         {
