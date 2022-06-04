@@ -155,6 +155,11 @@ const PROFILE_DATA = Object.freeze({
     ],
     certifications: [
         {
+            title: "Into to SQL",
+            url: "https://www.kaggle.com/learn/certification/afifaniks/intro-to-sql",
+            author: "Kaggle"
+        },
+        {
             title: "MongoDB Basics",
             url: "https://university.mongodb.com/course_completion/11fc3265-86c6-4344-9fcc-c9ac19093c86/printable?format=pdf",
             author: "MongoDB University"
