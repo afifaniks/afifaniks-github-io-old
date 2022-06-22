@@ -155,7 +155,7 @@ const PROFILE_DATA = Object.freeze({
     ],
     certifications: [
         {
-            title: "Amazon Elastic Compute Cloud (EC2) Beginners Certification",
+            title: "Amazon Elastic Compute Cloud (EC2) Certification",
             url: "https://www.udemy.com/certificate/UC-a0e908b8-7601-4607-9c09-a046bdfefd22/",
             author: "Udemy"
         },
