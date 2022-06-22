@@ -155,6 +155,16 @@ const PROFILE_DATA = Object.freeze({
     ],
     certifications: [
         {
+            title: "Amazon Elastic Compute Cloud (EC2) Beginners Certification",
+            url: "https://www.udemy.com/certificate/UC-a0e908b8-7601-4607-9c09-a046bdfefd22/",
+            author: "Udemy"
+        },
+        {
+            title: "AWS S3 Basics",
+            url: "https://www.coursera.org/account/accomplishments/verify/JF6L69QDJAJW",
+            author: "Coursera"
+        },
+        {
             title: "Into to SQL",
             url: "https://www.kaggle.com/learn/certification/afifaniks/intro-to-sql",
             author: "Kaggle"
@@ -265,7 +275,7 @@ const PROFILE_DATA = Object.freeze({
         "Natural Language Processing",
         "Computer Vision",
         "Software Development",
-        "API Development",
+        "System Design",
         "Amazon Web Services",
     ],
     opinions: [

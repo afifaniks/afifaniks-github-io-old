@@ -8,7 +8,7 @@ class SpecializationHolder extends Component {
                 <h3 className="section-title">Specialization</h3>
                 <div className="row p-l-2">
                     {
-                        this.props.specializations.map((specialization) => <div className="key-element col-lg-4 col-md-6 text-left"
+                        this.props.specializations.map((specialization) => <div className="key-element col-lg-4 col-md-6 force-center"
                             key={specialization}>
                             {specialization}
                         </div>)
