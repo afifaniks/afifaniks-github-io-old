@@ -6,7 +6,7 @@ class CertificationHolder extends Component {
         return (
             <div>
                 <div className="section-title d-flex">
-                    <h3>Certifications</h3>
+                    <h3>Courses/Certifications</h3>
                     <small>&nbsp;<b>({this.props.certifications.length})</b></small>
                 </div>
                 <ul>
