@@ -155,6 +155,11 @@ const PROFILE_DATA = Object.freeze({
     ],
     certifications: [
         {
+            title: "Developing CRUD Application using FastAPI, Python & MongoDB",
+            url: "https://www.udemy.com/certificate/UC-28c7ec06-b1b7-47e0-bbeb-1b7e63099dcf/",
+            author: "Udemy"
+        },
+        {
             title: "Amazon Elastic Compute Cloud (EC2) Certification",
             url: "https://www.udemy.com/certificate/UC-a0e908b8-7601-4607-9c09-a046bdfefd22/",
             author: "Udemy"
