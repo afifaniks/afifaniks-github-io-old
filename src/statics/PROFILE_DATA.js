@@ -227,7 +227,12 @@ const PROFILE_DATA = Object.freeze({
         {
             title: "Python for Data Science",
             url: "https://courses.edx.org/certificates/d1aa6651ed09421d8cc40265f91c66f3",
-            author: "Coursera"
+            author: "eDX"
+        },
+        {
+            title: "Automate the Boring Stuff with Python Programming",
+            url: "https://www.udemy.com/certificate/UC-eda97c18-820c-4f83-a073-a8873d96b44e/",
+            author: "Udemy"
         },
         {
             title: "Version Control with Git",
