@@ -59,18 +59,36 @@ class ProfileView extends Component {
                         {this.state.headline}
                     </div>
                     <div className="container">
-                        <div className="m-2 mb-4">
+                        <div className="m-2 mb-4" id={"social"}>
                             <SocialWidget socialLinks={this.state.socialLinks} />
                         </div>
-                        <BioCard bio={boldFormatter(urlFormatter(this.state.bio))} />
-                        <SpecializationHolder specializations={this.state.specializations} />
-                        <ExperienceHolder experiences={this.state.experiences} />
-                        <EducationHolder educations={this.state.educations} />
-                        <AchievementsHolder achievements={this.state.achievements} />
-                        <PublicationHolder publications={this.state.publications} />
-                        <ProjectsHolder projects={this.state.projects} />
-                        <CertificationHolder certifications={this.state.certifications} />
-                        <RecommendationHolder opinions={this.state.opinions}/>
+                        <div id={"bio"}>
+                            <BioCard bio={boldFormatter(urlFormatter(this.state.bio))} />
+                        </div>
+                        <div id={"specialization"}>
+                            <SpecializationHolder specializations={this.state.specializations} />
+                        </div>
+                        <div id={"experience"}>
+                            <ExperienceHolder experiences={this.state.experiences} />
+                        </div>
+                        <div id={"education"}>
+                            <EducationHolder educations={this.state.educations} />
+                        </div>
+                        <div id={"achievements"}>
+                            <AchievementsHolder achievements={this.state.achievements} />
+                        </div>
+                        <div id={"publications"}>
+                            <PublicationHolder publications={this.state.publications} />
+                        </div>
+                        <div id={"projects"}>
+                            <ProjectsHolder projects={this.state.projects} />
+                        </div>
+                        <div id={"certifications"}>
+                            <CertificationHolder certifications={this.state.certifications} />
+                        </div>
+                        <div id={"recommendations"}>
+                            <RecommendationHolder opinions={this.state.opinions}/>
+                        </div>
                     </div>
                 </div>
             </div>
