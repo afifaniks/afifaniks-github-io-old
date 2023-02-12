@@ -24,9 +24,15 @@ const PROFILE_DATA = Object.freeze({
             companyWebsite: "https://infolytx.com",
             history: [
                 {
+                    designation: "Software Engineer II in AI/ML",
+                    from: "January, 2023",
+                    to: "till date",
+                    affliatedProjects: []
+                },
+                {
                     designation: "Software Engineer I in AI/ML",
                     from: "January, 2022",
-                    to: "till date",
+                    to: "December, 2022",
                     affliatedProjects: []
                 },
                 {
@@ -292,6 +298,10 @@ const PROFILE_DATA = Object.freeze({
         {
             body: "Afif is a terrific, lively, and astute coder. He is also a fast learner. For a year, I was in charge of him. But the way he groomed himself was amazing! He was a fresh graduate when he joined my team. But take a peek at him right now! He drives his worth to a new level. Thanks to him for being a part of my team. I wish him all the very best.",
             provider: "Tanveer Noman, PMP (AVP, Software Development, ServicEngine Ltd.)"
+        },
+        {
+            body: "It was a terrific experience working with Afif for about a year. He is a polyglot who enjoys learning new things and is never afraid to express his mind. Most significantly, he takes responsibility for the products he is working on, which relieves the project manager and team leader of some of their workload. Because of his wit, working with him was always enjoyable. I wish Afif the best of luck in life and have no doubt that he will succeed.",
+            provider: "Mir Mohammad Jaber (Software Engineer, Cefalo)"
         },
         {
             body: "From the very first day of his work in my Team, Afif showed his pro-activeness and competency and as his Team In-charge I had the opportunity to witness that. Later in the journey he never failed to proof himself by portraying his strong skillset and knowledge. He encountered every challenge confidently that was passed at him, and left his marks of expertise and sincerity through his remarkable contributions. I wish Afif every success in his life, and I am sure he will go a long way.",
