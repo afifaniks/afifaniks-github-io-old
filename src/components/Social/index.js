@@ -11,7 +11,7 @@ class SocialWidget extends Component {
                     // eslint-disable-next-line array-callback-return
                     && Object.keys(this.props.socialLinks).map((profile) => <span key={profile}><a href={ this.props.socialLinks[profile] }>{ profile }</a> | </span>)
                 }
-                <a href="https://afifaniks.github.io/blog" className="bg-highlight">Blog</a>
+                <a href="https://medium.com/@afifaniks" className="bg-highlight">Afif&apos;s Log</a>
             </div>
         );
     }
