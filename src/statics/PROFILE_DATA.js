@@ -1,7 +1,7 @@
 const PROFILE_DATA = Object.freeze({
-    profileName: "Afif Al Mamun",
+    profileName: "Md Afif Al Mamun",
     headline: "Machine Learning Engineer | Gold Medalist",
-    bio: "Afif Al Mamun is a software engineer from Dhaka, Bangladesh. "
+    bio: "Md Afif Al Mamun is a software engineer from Dhaka, Bangladesh. "
         + "He is currently working at [Infolytx Bangladesh Ltd.](infolytx.com) as a software engineer in machine learning. "
         + "Previously, he used to work at [ServicEngine Ltd.](sebpo.com) as a software engineer where his main role was to develop web scrapers as per clients' requirements and also developing modules in Java for the company framework. "
         + "Being an AI enthusiast, he is actively researching in the field of Deep Learning & Computer Vision and has published a few scholarly articles. "
@@ -25,20 +25,20 @@ const PROFILE_DATA = Object.freeze({
             history: [
                 {
                     designation: "Software Engineer II in AI/ML",
-                    from: "January, 2023",
+                    from: "January 2023",
                     to: "till date",
                     affliatedProjects: []
                 },
                 {
                     designation: "Software Engineer I in AI/ML",
-                    from: "January, 2022",
-                    to: "December, 2022",
+                    from: "January 2022",
+                    to: "December 2022",
                     affliatedProjects: []
                 },
                 {
                     designation: "Jr. Software Engineer in AI/ML",
-                    from: "July, 2021",
-                    to: "December, 2021",
+                    from: "July 2021",
+                    to: "December 2021",
                 }
             ]
         },
@@ -48,8 +48,8 @@ const PROFILE_DATA = Object.freeze({
             history: [
                 {
                     designation: "Software Engineer",
-                    from: "July, 2020",
-                    to: "June, 2021",
+                    from: "July 2020",
+                    to: "June 2021",
                 }
             ]
         },
@@ -58,16 +58,16 @@ const PROFILE_DATA = Object.freeze({
         {
             instituteName: "Daffodil International University",
             instituteWebsite: "https://daffodilvarsity.edu.bd/",
-            from: "May, 2016",
-            to: "August, 2020",
+            from: "May 2016",
+            to: "August 2020",
             degreeType: "B.Sc in Computer Science & Engineering",
             thesis: "[an-Eye: Safe Navigation in Footpath for Visually Impaired using Computer Vision Techniques](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=XuauQRIAAAAJ&citation_for_view=XuauQRIAAAAJ:u-x6o8ySG0sC)"
         },
         {
             instituteName: "Gurudayal Govt. College",
             instituteWebsite: "https://www.gdc.gov.bd/",
-            from: "May, 2012",
-            to: "August, 2014",
+            from: "May 2012",
+            to: "August 2014",
             degreeType: "HSC in Science",
         },
     ],
