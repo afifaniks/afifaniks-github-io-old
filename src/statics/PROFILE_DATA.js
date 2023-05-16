@@ -1,3 +1,5 @@
+import CertificateTypes from "../components/Certification/CertificateTypes";
+
 const PROFILE_DATA = Object.freeze({
     profileName: "Afif Al Mamun",
     headline: "Machine Learning Engineer | Gold Medalist",
@@ -163,136 +165,162 @@ const PROFILE_DATA = Object.freeze({
         {
             title: "Developing CRUD Application using FastAPI, Python & MongoDB",
             url: "https://www.udemy.com/certificate/UC-28c7ec06-b1b7-47e0-bbeb-1b7e63099dcf/",
-            author: "Udemy"
+            author: "Udemy",
+            type: CertificateTypes.SOFTWARE_ENGINEERING,
         },
         {
             title: "Amazon Elastic Compute Cloud (EC2) Certification",
             url: "https://www.udemy.com/certificate/UC-a0e908b8-7601-4607-9c09-a046bdfefd22/",
-            author: "Udemy"
+            author: "Udemy",
+            type: CertificateTypes.CLOUD_SERVICE,
         },
         {
             title: "AWS S3 Basics",
             url: "https://www.coursera.org/account/accomplishments/verify/JF6L69QDJAJW",
-            author: "Coursera"
+            author: "Coursera",
+            type: CertificateTypes.CLOUD_SERVICE,
         },
         {
             title: "Into to SQL",
             url: "https://www.kaggle.com/learn/certification/afifaniks/intro-to-sql",
-            author: "Kaggle"
+            author: "Kaggle",
+            type: CertificateTypes.DATABASE,
+
         },
         {
             title: "MongoDB Basics",
             url: "https://university.mongodb.com/course_completion/11fc3265-86c6-4344-9fcc-c9ac19093c86/printable?format=pdf",
-            author: "MongoDB University"
+            author: "MongoDB University",
+            type: CertificateTypes.DATABASE,
         },
         {
             title: "Feature Engineering for NLP in Python",
             url: "https://www.datacamp.com/statement-of-accomplishment/course/5be12dd44ff881a4909c7e317a14761f750b4a24",
-            author: "Datacamp"
+            author: "Datacamp",
+            type: CertificateTypes.AI_ML,
         },
         {
             title: "Advanced NLP with spaCy",
             url: "https://www.datacamp.com/statement-of-accomplishment/course/f3a0a3f616e03df251b743cc97dd378ca69105ac",
-            author: "Datacamp"
+            author: "Datacamp",
+            type: CertificateTypes.AI_ML,
         },
         {
             title: "Building Recommendation Engines in Python",
             url: "https://www.datacamp.com/statement-of-accomplishment/course/c7ec306ceee18bbf95aff82b32d0f12fea635f2c",
-            author: "Datacamp"
+            author: "Datacamp",
+            type: CertificateTypes.AI_ML,
         },
         {
             title: "Sentiment Analysis in Python",
             url: "https://www.datacamp.com/statement-of-accomplishment/course/5f7d466a5ec764416c3b86a6d6773b859e942e88",
-            author: "Datacamp"
+            author: "Datacamp",
+            type: CertificateTypes.AI_ML,
         },
         {
             title: "Introduction to Natural Language Processing",
             url: "https://www.datacamp.com/statement-of-accomplishment/course/61ada754cb7d28baddc43a4524b5dd448070d745",
-            author: "Datacamp"
+            author: "Datacamp",
+            type: CertificateTypes.AI_ML,
         },
         {
             title: "Data Manipulation with pandas",
             url: "https://www.datacamp.com/statement-of-accomplishment/course/e6917edca2d5d1672bf2f72345ebd5acfa8902fd",
-            author: "Datacamp"
+            author: "Datacamp",
+            type: CertificateTypes.AI_ML,
         },
         {
             title: "Getting Started with AWS Machine Learning",
             url: "https://www.coursera.org/account/accomplishments/certificate/BJS5C8BBHD52",
-            author: "Coursera"
+            author: "Coursera",
+            type: CertificateTypes.AI_ML,
         },
         {
             title: "Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning",
             url: "https://www.coursera.org/account/accomplishments/certificate/DJRZ9WY5ADQ9",
-            author: "Coursera"
+            author: "Coursera",
+            type: CertificateTypes.AI_ML,
         },
         {
             title: "Neural Networks and Deep Learning",
             url: "https://www.coursera.org/account/accomplishments/certificate/U5YSEY4MDJV9",
-            author: "Coursera"
+            author: "Coursera",
+            type: CertificateTypes.AI_ML,
         },
         {
             title: "Python for Data Science",
             url: "https://courses.edx.org/certificates/d1aa6651ed09421d8cc40265f91c66f3",
-            author: "edX"
+            author: "edX",
+            type: CertificateTypes.AI_ML,
         },
         {
             title: "Automate the Boring Stuff with Python Programming",
             url: "https://www.udemy.com/certificate/UC-eda97c18-820c-4f83-a073-a8873d96b44e/",
-            author: "Udemy"
+            author: "Udemy",
+            type: CertificateTypes.SOFTWARE_ENGINEERING,
         },
         {
             title: "Version Control with Git",
             url: "https://www.coursera.org/account/accomplishments/certificate/N5MK24H77QYY",
-            author: "Coursera"
+            author: "Coursera",
+            type: CertificateTypes.SOFTWARE_ENGINEERING,
         },
         {
             title: "Java Certificate",
             url: "https://www.hackerrank.com/certificates/71404113df34",
-            author: "HackerRank"
+            author: "HackerRank",
+            type: CertificateTypes.SOFTWARE_ENGINEERING,
         },
         {
             title: "Python Certificate",
             url: "https://www.hackerrank.com/certificates/9a4611b7c3fc",
-            author: "HackerRank"
+            author: "HackerRank",
+            type: CertificateTypes.SOFTWARE_ENGINEERING,
         },
         {
             title: "Python Essentials",
             url: "https://www.credly.com/badges/92af45d0-2105-4318-8ebb-a1bcdec53847",
-            author: "IBM"
+            author: "IBM",
+            type: CertificateTypes.SOFTWARE_ENGINEERING,
         },
         {
             title: "Learn Javascript",
             url: "https://onemonth.com/certificates/kZdK4kiFsjEahyCiG3XN",
-            author: "One Month"
+            author: "One Month",
+            type: CertificateTypes.SOFTWARE_ENGINEERING,
         },
         {
             title: "Python & Django Framework Course: The Complete Guide",
             url: "https://www.udemy.com/certificate/UC-8ff543d8-a889-419b-a066-3f774c86652b/",
-            author: "Udemy"
+            author: "Udemy",
+            type: CertificateTypes.WEB,
         },
         {
             title: "Front-End Web Development with React",
             url: "https://www.coursera.org/account/accomplishments/certificate/G3QTGCJKJYCC",
-            author: "Coursera"
+            author: "Coursera",
+            type: CertificateTypes.WEB,
         },
         {
             title: "Java for Android",
             url: "https://www.coursera.org/account/accomplishments/certificate/BXCEC56ZM56S",
-            author: "Coursera"
+            author: "Coursera",
+            type: CertificateTypes.SOFTWARE_ENGINEERING,
         },
         {
             title: "Front-End Web UI Frameworks and Tools: Bootstrap 4",
             url: "https://www.coursera.org/account/accomplishments/certificate/DWU9YKJGD3RY",
-            author: "Coursera"
+            author: "Coursera",
+            type: CertificateTypes.WEB,
         },
     ],
     specializations: [
-        "Machine Learning",
+        "Software Engineering",
         "Natural Language Processing",
         "Computer Vision",
-        "Software Development",
         "System Design",
         "Amazon Web Services",
+        "CI/CD"
     ],
     opinions: [
         {
