@@ -3,7 +3,7 @@ export default class CertificateTypes {
 
     static CLOUD_SERVICE = "cloud";
 
-    static AI_ML = "ai/ml";
+    static AI_ML = "ai_ml";
 
     static DATABASE = "db";
 
