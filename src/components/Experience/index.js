@@ -21,7 +21,7 @@ class ExperienceHolder extends Component {
                                 </div>)
                             }
                             {
-                                index < workExperience.history.length - 1 ? <hr className="width-20"/> : <></>
+                                index < this.props.experiences.length - 1 ? <hr className="width-20"/> : <></>
                             }
                         </li>)
                     }

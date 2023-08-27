@@ -22,13 +22,24 @@ const PROFILE_DATA = Object.freeze({
     },
     experiences: [
         {
+            companyName: "University of Calgary",
+            companyWebsite: "https://www.ucalgary.ca/",
+            history: [
+                {
+                    designation: "Graduate Research and Teaching Assistant",
+                    from: "September 2023",
+                    to: "Present",
+                }
+            ]
+        },
+        {
             companyName: "Infolytx Bangladesh Ltd.",
             companyWebsite: "https://infolytx.com",
             history: [
                 {
                     designation: "Software Engineer II in AI/ML",
                     from: "January 2023",
-                    to: "till date",
+                    to: "August 2023",
                     affliatedProjects: []
                 },
                 {
@@ -57,6 +68,13 @@ const PROFILE_DATA = Object.freeze({
         },
     ],
     educations: [
+        {
+            instituteName: "University of Calgary",
+            instituteWebsite: "https://www.ucalgary.ca/",
+            from: "September 2023",
+            to: "Now",
+            degreeType: "M.Sc in Electrical & Software Engineering",
+        },
         {
             instituteName: "Daffodil International University",
             instituteWebsite: "https://daffodilvarsity.edu.bd/",
