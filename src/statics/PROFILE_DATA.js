@@ -8,7 +8,7 @@ const PROFILE_DATA = Object.freeze({
         + "Previously, he used to work at [ServicEngine Ltd.](sebpo.com) as a software engineer where his main role was to develop web scrapers as per clients' requirements and also developing modules in Java for the company framework. "
         + "Being an AI enthusiast, he is actively researching in the field of Deep Learning & Computer Vision and has published a few scholarly articles. "
         + "Afif obtained his bachelor degree from the Department of Computer Science and Engineering of [Daffodil International University](https://daffodilvarsity.edu.bd/). "
-        + "He received the **50 Years Victory of Bangladesh Gold Medal** on the [9th convocation](https://convocation.daffodilvarsity.edu.bd/index.php/convocation/nineth-convocation) of the university held in 2022. "
+        + "He received the **50 Years Victory of Bangladesh Gold Medal** on the [9th convocation](https://convocation.daffodilvarsity.edu.bd/convocation/9th-convocation) of the university held in 2022. "
         + "During his study in the university, he collaborated with instructors as a student prefect.",
     homepage: "https://afifaniks.github.io",
     email: "afifanik@gmail.com",
