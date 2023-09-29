@@ -3,13 +3,7 @@ import CertificateTypes from "../components/Certification/CertificateTypes";
 const PROFILE_DATA = Object.freeze({
     profileName: "Md Afif Al Mamun",
     headline: "Machine Learning Engineer | Gold Medalist",
-    bio: "Md Afif Al Mamun is a software engineer from Dhaka, Bangladesh. "
-        + "He is currently working at [Infolytx Bangladesh Ltd.](infolytx.com) as a software engineer in machine learning. "
-        + "Previously, he used to work at [ServicEngine Ltd.](sebpo.com) as a software engineer where his main role was to develop web scrapers as per clients' requirements and also developing modules in Java for the company framework. "
-        + "Being an AI enthusiast, he is actively researching in the field of Deep Learning & Computer Vision and has published a few scholarly articles. "
-        + "Afif obtained his bachelor degree from the Department of Computer Science and Engineering of [Daffodil International University](https://daffodilvarsity.edu.bd/). "
-        + "He received the **50 Years Victory of Bangladesh Gold Medal** on the [9th convocation](https://convocation.daffodilvarsity.edu.bd/convocation/9th-convocation) of the university held in 2022. "
-        + "During his study in the university, he collaborated with instructors as a student prefect.",
+    bio: `Hi, I am Afif, a graduate student at the <a href="https://www.ucalgary.ca/">University of Calgary</a>. I am also playing the role of a <b>Graduate Assistant - Research & Teaching</b> at the same place. My current research involves <b>Large Language Models and Software Engineering</b>.</br></br>My academic journey here follows several years as a <b>Software Engineer in AI</b>, during which I had the privilege of contributing to a range of cutting-edge projects. I've often been described as a <b>"Jack of All Trades"</b>, always eager to lend my expertise, regardless of the technology stack, and always in pursuit of mastery.<br/><br/>Even before that, I was honored with a gold medal while receiving my Bachelor of Science degree in Computer Science & Engineering.`,
     homepage: "https://afifaniks.github.io",
     email: "afifanik@gmail.com",
     socialLinks: {
@@ -96,7 +90,7 @@ const PROFILE_DATA = Object.freeze({
             title: "50 Years Victory of Bangladesh Gold Medal",
             time: "2022",
             awardedBy: "Daffodil International University",
-            desc: "Recognition of academic accomplishment during the undergrad. The medal was given by the Hon'ble Minister of Education Dr. Dipu Moni on the 9th convocation of the university dated January 9, 2022."
+            desc: "Honored for the highest academic distinction at the undergraduate level in the Faculty of Science & Information Technology of Daffodil International University. The medal was given by the Minister of Education on the 9th convocation of the university dated January 9, 2022."
         },
         {
             title: "Professor Dr.  M. Lutfar Rahman Scholarship",
