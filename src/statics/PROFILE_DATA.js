@@ -3,7 +3,7 @@ import CertificateTypes from "../components/Certification/CertificateTypes";
 const PROFILE_DATA = Object.freeze({
     profileName: "Md Afif Al Mamun",
     headline: "Graduate Student | Software Engineer in AI",
-    bio: `Hi, I am Afif, a graduate student at the <a href="https://www.ucalgary.ca/">University of Calgary</a>. I am also playing the role of a <b>Graduate Assistant - Research & Teaching</b> at the same place. My current research involves <b>Large Language Models and Software Engineering</b>.</br></br>My academic journey here follows several years as a <b>Software Engineer in AI</b>, during which I had the privilege of contributing to a range of cutting-edge projects. I've often been described as a <b>"Jack of All Trades"</b>, always eager to lend my expertise, regardless of the technology stack, and always in pursuit of mastery.<br/><br/>Even before that, I was honored with a gold medal while receiving my Bachelor of Science degree in Computer Science & Engineering.`,
+    bio: "Hi, I am Afif, a graduate student at the <a href=\"https://www.ucalgary.ca/\">University of Calgary</a>. I am also playing the role of a <b>Graduate Assistant - Research & Teaching</b> at the same place. My current research involves <b>Large Language Models and Software Engineering</b>.</br></br>My academic journey here follows several years as a <b>Software Engineer in AI</b>, during which I had the privilege of contributing to a range of cutting-edge projects. I've often been described as a <b>\"Jack of All Trades\"</b>, always eager to lend my expertise, regardless of the technology stack, and always in pursuit of mastery.<br/><br/>Earlier, I was honored with a gold medal while receiving my Bachelor of Science degree in Computer Science & Engineering.",
     homepage: "https://afifaniks.github.io",
     email: "afifanik@gmail.com",
     socialLinks: {
@@ -63,34 +63,29 @@ const PROFILE_DATA = Object.freeze({
     ],
     educations: [
         {
-            instituteName: "University of Calgary",
+            instituteName: "University of Calgary, Canada",
             instituteWebsite: "https://www.ucalgary.ca/",
             from: "September 2023",
-            to: "Now",
-            degreeType: "M.Sc in Electrical & Software Engineering",
+            to: "Present",
+            degreeType: "Master of Science",
+            field: "Electrical & Software Engineering",
         },
         {
-            instituteName: "Daffodil International University",
+            instituteName: "Daffodil International University, Bangladesh",
             instituteWebsite: "https://daffodilvarsity.edu.bd/",
             from: "May 2016",
             to: "August 2020",
-            degreeType: "B.Sc in Computer Science & Engineering",
+            degreeType: "Bachelor of Science",
+            field: "Computer Science & Engineering",
             thesis: "[an-Eye: Safe Navigation in Footpath for Visually Impaired using Computer Vision Techniques](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=XuauQRIAAAAJ&citation_for_view=XuauQRIAAAAJ:u-x6o8ySG0sC)"
-        },
-        {
-            instituteName: "Gurudayal Govt. College",
-            instituteWebsite: "https://www.gdc.gov.bd/",
-            from: "May 2012",
-            to: "August 2014",
-            degreeType: "HSC in Science",
-        },
+        }
     ],
     achievements: [
         {
             title: "50 Years Victory of Bangladesh Gold Medal",
             time: "2022",
             awardedBy: "Daffodil International University",
-            desc: "Honored for the highest academic distinction at the undergraduate level in the Faculty of Science & Information Technology of Daffodil International University. The medal was given by the Minister of Education on the 9th convocation of the university dated January 9, 2022."
+            desc: "Honored for the highest academic distinction at the undergraduate level in the Faculty of Science & Information Technology of Daffodil International University. The medal was awarded by the Minister of Education on the 9th convocation of the university dated January 9, 2022."
         },
         {
             title: "Professor Dr.  M. Lutfar Rahman Scholarship",

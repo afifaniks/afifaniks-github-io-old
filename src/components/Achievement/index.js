@@ -8,7 +8,7 @@ class AchievementsHolder extends Component {
                 <h3 className="section-title">Achievements</h3>
                 <ul>
                     {
-                        this.props.achievements.map((achievement) => <li key={achievement.title}>
+                        this.props.achievements.map((achievement, index) => <li key={achievement.title}>
                             <p className="key-element" >
                                 {achievement.title}
                             </p>
@@ -31,6 +31,7 @@ class AchievementsHolder extends Component {
                                     }
                                 </tbody>
                             </table>
+                            {index < this.props.achievements.length - 1 ? <hr className="width-20"/> : <></>}
                         </li>)
                     }
                 </ul>
