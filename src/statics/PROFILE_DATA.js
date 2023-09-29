@@ -2,7 +2,7 @@ import CertificateTypes from "../components/Certification/CertificateTypes";
 
 const PROFILE_DATA = Object.freeze({
     profileName: "Md Afif Al Mamun",
-    headline: "Machine Learning Engineer | Gold Medalist",
+    headline: "Graduate Student | Software Engineer in AI",
     bio: `Hi, I am Afif, a graduate student at the <a href="https://www.ucalgary.ca/">University of Calgary</a>. I am also playing the role of a <b>Graduate Assistant - Research & Teaching</b> at the same place. My current research involves <b>Large Language Models and Software Engineering</b>.</br></br>My academic journey here follows several years as a <b>Software Engineer in AI</b>, during which I had the privilege of contributing to a range of cutting-edge projects. I've often been described as a <b>"Jack of All Trades"</b>, always eager to lend my expertise, regardless of the technology stack, and always in pursuit of mastery.<br/><br/>Even before that, I was honored with a gold medal while receiving my Bachelor of Science degree in Computer Science & Engineering.`,
     homepage: "https://afifaniks.github.io",
     email: "afifanik@gmail.com",
