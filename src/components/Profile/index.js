@@ -12,7 +12,6 @@ import PublicationHolder from "../Publication";
 import CertificationHolder from "../Certification";
 import SpecializationHolder from "../Specialization";
 import ProjectsHolder from "../Project";
-import RecommendationHolder from "../Recommendations";
 
 class ProfileView extends Component {
     constructor(props) {
@@ -85,9 +84,6 @@ class ProfileView extends Component {
                         </div>
                         <div id={"certifications"}>
                             <CertificationHolder certifications={this.state.certifications} />
-                        </div>
-                        <div id={"recommendations"}>
-                            <RecommendationHolder opinions={this.state.opinions}/>
                         </div>
                     </div>
                 </div>
