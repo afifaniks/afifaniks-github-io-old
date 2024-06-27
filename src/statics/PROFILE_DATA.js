@@ -80,16 +80,28 @@ const PROFILE_DATA = Object.freeze({
     ],
     achievements: [
         {
+            title: "Alberta Graduate Excellence Scholarship (AGES)",
+            time: "June 2024",
+            awardedBy: "University of Calgary",
+            desc: ""
+        },
+        {
+            title: "ESE Graduate Research Award",
+            time: "April 2024",
+            awardedBy: "University of Calgary",
+            desc: ""
+        },
+        {
             title: "50 Years Victory of Bangladesh Gold Medal",
             time: "2022",
             awardedBy: "Daffodil International University",
-            desc: "Honored for the highest academic distinction at the undergraduate level in the Faculty of Science & Information Technology of Daffodil International University. The medal was awarded by the Minister of Education on the 9th convocation of the university dated January 9, 2022."
+            desc: ""
         },
         {
             title: "Professor Dr.  M. Lutfar Rahman Scholarship",
             time: "2017",
             awardedBy: "Daffodil International University",
-            desc: "Highest GPA (4.00) in the department in the 1st year"
+            desc: ""
         },
         {
             title: "Education Board Scholarship",
@@ -321,9 +333,9 @@ const PROFILE_DATA = Object.freeze({
     ],
     specializations: [
         "Software Engineering",
+        "Large Language Models",
         "Natural Language Processing",
         "Computer Vision",
-        "System Design",
         "Amazon Web Services",
         "CI/CD"
     ],

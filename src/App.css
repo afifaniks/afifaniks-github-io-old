@@ -22,12 +22,12 @@ code {
 }
 
 a {
-    color: darkcyan;
+    color: dodgerblue;
     text-decoration: none;
 }
 
 a:hover {
-    color: #005e5e;
+    color: rgb(0, 100, 201);
 }
 
 .section-title {
@@ -92,7 +92,7 @@ b {
 }
 
 .quote-style {
-    border-left: .20rem solid darkcyan;
+    border-left: .20rem solid dodgerblue;
     border-radius: 5px;
     margin-bottom: 8px;
 }
