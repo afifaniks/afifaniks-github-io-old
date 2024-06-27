@@ -133,6 +133,11 @@ const PROFILE_DATA = Object.freeze({
     ],
     projects: [
         {
+            title: "Intelligent Issue Analytics Assistant for IBM Runtime Systems",
+            url: "https://casweb.59b0587b.public.multi-containers.ibm.com/ibm/cas/canada/research/1155",
+            stack: ["DeBERTa", "RoBERTa", "Pytorch", "Transformers"]
+        },
+        {
             title: "anEye",
             url: "https://sites.google.com/view/a-Eye",
             stack: ["Tensorflow", "Keras", "OpenCV", "Python"]
