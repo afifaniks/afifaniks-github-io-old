@@ -1,5 +1,5 @@
-import React, { Component } from "react";
 import PropTypes from "prop-types";
+import React, { Component } from "react";
 
 class ProjectsHolder extends Component {
     render() {
@@ -7,9 +7,6 @@ class ProjectsHolder extends Component {
             <div>
                 <div className="section-title d-flex">
                     <h3 className="m-0">Projects</h3>
-                    <i className="fas fa-info-circle info-icon"
-                        data-toggle="tooltip"
-                        title="Only open sourced and personal projects are listed here"/>
                 </div>
                 <ul>
                     {

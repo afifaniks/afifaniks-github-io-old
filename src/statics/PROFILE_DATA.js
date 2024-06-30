@@ -3,7 +3,7 @@ import CertificateTypes from "../components/Certification/CertificateTypes";
 const PROFILE_DATA = Object.freeze({
     profileName: "Afif Al Mamun",
     headline: "Graduate Researcher | Software Engineer",
-    bio: "Hi, I am Afif, a graduate student at the <a href=\"https://www.ucalgary.ca/\">University of Calgary</a>. I am also playing the role of a <b>Graduate Assistant - Research & Teaching</b> at the same place. My current research involves <b>Large Language Models and Software Engineering</b>.</br></br>My academic journey here follows several years as a <b>Software Engineer in AI</b>, during which I had the privilege of contributing to a range of cutting-edge projects. I've often been described as a <b>\"Jack of All Trades\"</b>, always eager to lend my expertise, regardless of the technology stack, and always in pursuit of mastery.<br/><br/>Earlier, I was honored with a gold medal while receiving my Bachelor of Science degree in Computer Science & Engineering.",
+    bio: "I am Afif, a graduate student at the <a href='https://ucalgary.ca'>University of Calgary</a> and working with <a href='https://casweb.59b0587b.public.multi-containers.ibm.com/ibm/cas/canada/'>IBM CAS Canada</a>. Alongside my studies, I serve as a Graduate Assistant in Research & Teaching at the same institution. My current research centers on Large Language Models and Software Engineering, areas I am deeply passionate about. Before my graduate studies, I worked for several years as a Software Engineer specializing in AI. During this time, I had the opportunity to contribute to various cutting-edge projects across different domains. I was also honored with a gold medal upon receiving my Bachelor of Science degree.<br><br>Like many software engineers, I dream of retiring to a remote village and starting a farm. :)",
     homepage: "https://afifaniks.github.io",
     email: "afifanik@gmail.com",
     socialLinks: {
@@ -138,49 +138,34 @@ const PROFILE_DATA = Object.freeze({
             stack: ["DeBERTa", "RoBERTa", "Pytorch", "Transformers"]
         },
         {
-            title: "anEye",
-            url: "https://sites.google.com/view/a-Eye",
-            stack: ["Tensorflow", "Keras", "OpenCV", "Python"]
-        },
-        {
             title: "Bangla Music Genre Classifier",
             url: "https://github.com/afifaniks/BanglaMusicGenreClassification",
             stack: ["Tensorflow", "Keras", "Python"]
         },
         {
-            title: "React Weather App",
-            url: "https://afifaniks.github.io/weather-app-react/",
-            stack: ["React.js", "Bootstrap"]
+            title: "TextMiner - Text Analytics Framework",
+            url: "https://www.infolytx.com/ai-accelerators/",
+            stack: ["FastAPI", "PyTorch", "Amazon Textract", "spaCy"]
         },
         {
-            title: "Landscape BD Website",
-            url: "https://landscapebd.com",
-            stack: ["Wordpress"]
+            title: "BestFit - Candidate Screening System",
+            url: "https://www.infolytx.com/products/bestfit-ai-solution/",
+            stack: ["Spring Boot", "spaCy", "NLTK"]
         },
         {
-            title: "Educator Website",
-            url: "https://educator-bd.com",
-            stack: ["Django", "Bootstrap"]
+            title: "Shadhin - Fintech Accelerator",
+            url: "https://www.infolytx.com/case-study/case-study-fintech/",
+            stack: ["FastAPI", "PyTorch", "spaCy"]
+        },
+        {
+            title: "anEye - Undergrad Thesis Project",
+            url: "https://sites.google.com/view/a-Eye",
+            stack: ["Tensorflow", "Keras", "OpenCV", "Python"]
         },
         {
             title: "Inventory Management System",
             url: "https://github.com/afifaniks/InventorySystem",
             stack: ["JavaFX", "MySQL"]
-        },
-        {
-            title: "File Retriever",
-            url: "https://github.com/afifaniks/FileRetriever",
-            stack: ["Android", "Java", "Cross-platform"]
-        },
-        {
-            title: "Floyd Warshall Algorithm Simulation",
-            url: "https://github.com/afifaniks/FloydWarshallSimulation",
-            stack: ["JavaFX"]
-        },
-        {
-            title: "Java Swing Shopping Cart",
-            url: "https://github.com/afifaniks/ShoppingCartinJava",
-            stack: ["Java"]
         },
     ],
     certifications: [
